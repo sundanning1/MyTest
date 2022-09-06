@@ -1,0 +1,41 @@
+git突击战
+
+创建账号
+$ git config --global user.name SDN
+$ git config --global user.email xiaosun@bukaopu.com
+$git clone 仓库链接 # 第一次下载
+初次下载
+在桌面中新建一个文件夹，进入文件夹 右键点击git bash here 输入git clone 右键点击paste粘贴复制的链接 点回车
+cd 进入项目 输入git pull 回车 就可以拉到上传的数据
+第二次及以后下载 直接进入项目 输入git pull回车就可以拉到上传的数据
+$git init #初始化
+
+提交文件到本地仓库----》推送至github仓库
+$git add .    # . 意为当前文件夹 将当前文件夹内内容（除.git）设置为准备提交状态
+$git add main.py #将当前文件设置为准备提交状态
+$git commit -m "此处为备注：功能一已完成" #提交文件
+$git push  //  $git push origin 文件推送地址 #将本地提交的文件推送至github指定路径中
+从github仓库拉取文件到本地
+$git pull origin dev（拉取文件地址 ） # 拉取dev分支中内容
+
+
+$ git checkout HEAD 需要恢复的文件名.py # 将文件恢复到最新提交版本
+$git push #文件推送
+$git push origin 文件推送地址 #将本地提交的文件推送至github指定路径中
+$git status # 检测文件状态
+$git log #查看保存文件所有版本
+$git reset --hard 版本号 #回滚到指定版本号处
+$git reflog #查看操作所有版本
+
+$git branch # 查看分支？
+$git checkout 分支名 # 切换当前分支
+$git merge master(要合并的文件) #master与当前分支合并
+$git pull origin dev（拉取文件地址 ） # 拉取dev分支中内容
+$touch 文件名.py # 创建文件 
+
+红色：工作区（已管理/新/修改）
+绿色：缓存区（准备提交状态）
+无色：版本库
+
+
+
