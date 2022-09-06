@@ -1,9 +1,9 @@
 ***************************************************************************************************************************************************************************
 小金，能跟上吗
-小金站起来，小金
+小金站起来，小金  
 小金你来回答
 小金别睡觉                bs？？？？？？？？？？？？？？？？？
-俊杰shi
+俊杰shi                       bootstrap
 ---------------------------------------------------------------------------------------------------------------------------
 》Topic（发布/订阅）
 ROS中的通信方式中，topic是常用的一种。对于实时性、周期性的消息，使用topic来传输是最佳的选择。
@@ -785,6 +785,14 @@ mysql> select class_id from user group by class_id having class_id<=2;
 query();执行sql语句
 exec();执行sql语句，查询数据库数据
 prepare();设置预处理函数
+lastInsertId()#获取刚插入的数据编号
+setAttribute(）#设置默认属性
+getAttribute(）#获取默认属性
+事务机制：
+beginTrarsaction(); #开启任务
+commit();#成功提交本次任务
+rollBack();#失败撤销本次任务
+
 2.PDOStatement class #PDO预处理类
 fetchAll()从结果集中获取全部数据
 fetch（）从结果集中获取一条数据，适用于只有一条数据的结果集
@@ -793,6 +801,9 @@ execute(); 执行预处理对象，返回值为ture/fault
 rowCount();获取影响行数
 bindvalue（）给预处理绑值
 3.PDOException class #PDO异常类
+getMessage(); 
+getFile();g
+etLine();
 
 实例：PDO获取表数据
 <?php
@@ -844,8 +855,61 @@ echo '数据操作失败!';
 $sql="select* from user where id=?";
 $smt=$pdo->prepare($sql);
 $smt- >bindvalue(1,5);
+-----------------------------------------------------------------------------------
+2022/9/6
+lastInsertId()#获取刚插入的数据编号
+if($smt->execute()){
+    $lastid=$pdo->lastInsertId();
+     echo '刚刚插入的数据编号是'.$lastid;
+}
+设置/获取默认属性，第二个参数即为默认属性
+$pdo->setAttribute(PDO ::ATTR_DEFAULT_FETCH_MODE,PDO::FETCH_ASSOC);
+$pdo->getAttribute(PDO ::ATTR_DEFAULT_FETCH_MODE);
 
+PDO类补充方法:
+beginTransaction();#开启任务
+commit();#成功提交本次任务
+rollBack();#失败撤销本次任务
+PDOException类:#PDO异常类
+getMessage();#获取错误信息
+getFile();# 获取错误发生文件
+getLine();# 获取错误发生行数
 
+事务机制：
+beginTrarsaction(); #开启任务
+commit();#成功提交本次任务
+rollBack();#失败撤销本次任务
+3.PDOException class #PDO异常类
+getMessage(); 
+getFile();g
+etLine();
+
+一个事务机制+异常处理实例：
+<?php
+$pdo=new PDo( ' mysql:host=localhost;dbname=test ' , ' root' , '123');
+$pdo->exec( 'set names utf8 ' );
+$pdo->setAttribute(PDO ::ATTR_ERRMODE,PDO ::ERRMODE_EXCEPTION);//修改pdo错误抛出格式
+//开启事务
+$pdo->beginTransaction();
+try{
+       //一次操作
+       $sql="delete from user where id=1";
+       $smt=$pdo->prepare($sql);
+       $smt->execute();
+        //一次操作
+       $sql="delete form user where id=2";
+       $smt=$pdo->prepare($sql);
+       $smt->execute();
+        //提交
+       $pdo->commit();
+}catch(PDOException $e){
+        //撤回
+       $pdo->rollBack();
+}
+?>
+
+$this->length=$length; #属性（this->） 可跨函数方法被调用，可对外开放
+$page=$_GET['p']?$_GET['p']:1;# 局部变量，只能在本函数中使用
 
 
 
