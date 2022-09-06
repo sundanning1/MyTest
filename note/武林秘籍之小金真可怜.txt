@@ -1,66 +1,66 @@
 ***************************************************************************************************************************************************************************
-Ð¡½ð£¬ÄÜ¸úÉÏÂð
-Ð¡½ðÕ¾ÆðÀ´£¬Ð¡½ð  
-Ð¡½ðÄãÀ´»Ø´ð
-Ð¡½ð±ðË¯¾õ                bs£¿£¿£¿£¿£¿£¿£¿£¿£¿£¿£¿£¿£¿£¿£¿£¿£¿
-¿¡½Üshi                       bootstrap
+å°é‡‘ï¼Œèƒ½è·Ÿä¸Šå—
+å°é‡‘ç«™èµ·æ¥ï¼Œå°é‡‘  
+å°é‡‘ä½ æ¥å›žç­”
+å°é‡‘åˆ«ç¡è§‰                bsï¼Ÿï¼Ÿï¼Ÿï¼Ÿï¼Ÿï¼Ÿï¼Ÿï¼Ÿï¼Ÿï¼Ÿï¼Ÿï¼Ÿï¼Ÿï¼Ÿï¼Ÿï¼Ÿï¼Ÿ
+ä¿Šæ°shi                       bootstrap å¹²å®ƒ
 ---------------------------------------------------------------------------------------------------------------------------
-¡·Topic£¨·¢²¼/¶©ÔÄ£©
-ROSÖÐµÄÍ¨ÐÅ·½Ê½ÖÐ£¬topicÊÇ³£ÓÃµÄÒ»ÖÖ¡£¶ÔÓÚÊµÊ±ÐÔ¡¢ÖÜÆÚÐÔµÄÏûÏ¢£¬Ê¹ÓÃtopicÀ´´«ÊäÊÇ×î¼ÑµÄÑ¡Ôñ¡£
-topicÊÇÒ»ÖÖµã¶ÔµãµÄµ¥ÏòÍ¨ÐÅ·½Ê½£¬ÕâÀïµÄ¡°µã¡±Ö¸µÄÊÇnode£¬Ò²¾ÍÊÇËµnodeÖ®¼ä¿ÉÒÔÍ¨¹ýtopic·½Ê½À´´«µÝÐÅÏ¢¡£
-topicÒª¾­ÀúÏÂÃæ¼¸²½µÄ³õÊ¼»¯¹ý³Ì£ºÊ×ÏÈ£¬publisher½ÚµãºÍsubscriber½Úµã¶¼Òªµ½½Úµã¹ÜÀíÆ÷½øÐÐ×¢²á£¬È»ºópublisher»á·¢²¼topic£¬subscriberÔÚmasterµÄÖ¸»ÓÏÂ»á¶©ÔÄ¸Ãtopic£¬´Ó¶ø½¨Á¢Æðsub-pubÖ®¼äµÄÍ¨ÐÅ¡£
-×¢ÒâÕû¸ö¹ý³ÌÊÇµ¥ÏòµÄ¡£Æä½á¹¹Ê¾ÒâÍ¼ÈçÏÂ£º
-Subscriber½ÓÊÕÏûÏ¢»á½øÐÐ´¦Àí£¬Ò»°ãÕâ¸ö¹ý³Ì½Ð×ö»Øµ÷(Callback)¡£
-ËùÎ½»Øµ÷¾ÍÊÇÌáÇ°¶¨ÒåºÃÁËÒ»¸ö´¦Àíº¯Êý£¨Ð´ÔÚ´úÂëÖÐ£©£¬µ±ÓÐÏûÏ¢À´¾Í»á´¥·¢Õâ¸ö´¦Àíº¯Êý£¬º¯Êý»á¶ÔÏûÏ¢½øÐÐ´¦Àí¡£
-×¢ÒâÕû¸ö¹ý³ÌÊÇµ¥ÏòµÄ¡£
-¡·ÒýÓÃÆäËûphpÎÄ¼þ£¬include ¡®ÎÄ¼þÃû.php¡¯
-¡·Á¬½ÓÊý¾Ý¿â£ºmysql_connect(HOST,USER,PASS)
-¡·export default ÊÇÄ¬ÈÏµ¼³ö
-export const ÊÇÃüÃûµ¼³ö
-ÔÚÒ»¸öÎÄ¼þÖÐexport const¿ÉÒÔÓÐ¶à¸ö£¬µ«ÊÇexport defaultÖ»ÓÐÇÒ½öÓÐÒ»¸ö£¬
-{}±íÊ¾µ¼Èë·ÇÄ¬ÈÏ±äÁ¿ , Ò²¾ÍÊÇËµÎÄ¼þÖÐ²»Ê¹ÓÃexport defaultµ¼³öµÄ±äÁ¿¾ÍÐèÒª¼Ó{}£¬
- Ê¹ÓÃexport defaultµ¼³öµÄ¾Í¿ÉÒÔ²»¼Ó»¨À¨ºÅ£¬Èç¹ûÊÇÍâ²¿ÒýÓÃµÄ»°£¬ÊÇÕâÑù£º
+ã€‹Topicï¼ˆå‘å¸ƒ/è®¢é˜…ï¼‰
+ROSä¸­çš„é€šä¿¡æ–¹å¼ä¸­ï¼Œtopicæ˜¯å¸¸ç”¨çš„ä¸€ç§ã€‚å¯¹äºŽå®žæ—¶æ€§ã€å‘¨æœŸæ€§çš„æ¶ˆæ¯ï¼Œä½¿ç”¨topicæ¥ä¼ è¾“æ˜¯æœ€ä½³çš„é€‰æ‹©ã€‚
+topicæ˜¯ä¸€ç§ç‚¹å¯¹ç‚¹çš„å•å‘é€šä¿¡æ–¹å¼ï¼Œè¿™é‡Œçš„â€œç‚¹â€æŒ‡çš„æ˜¯nodeï¼Œä¹Ÿå°±æ˜¯è¯´nodeä¹‹é—´å¯ä»¥é€šè¿‡topicæ–¹å¼æ¥ä¼ é€’ä¿¡æ¯ã€‚
+topicè¦ç»åŽ†ä¸‹é¢å‡ æ­¥çš„åˆå§‹åŒ–è¿‡ç¨‹ï¼šé¦–å…ˆï¼ŒpublisherèŠ‚ç‚¹å’ŒsubscriberèŠ‚ç‚¹éƒ½è¦åˆ°èŠ‚ç‚¹ç®¡ç†å™¨è¿›è¡Œæ³¨å†Œï¼Œç„¶åŽpublisherä¼šå‘å¸ƒtopicï¼Œsubscriberåœ¨masterçš„æŒ‡æŒ¥ä¸‹ä¼šè®¢é˜…è¯¥topicï¼Œä»Žè€Œå»ºç«‹èµ·sub-pubä¹‹é—´çš„é€šä¿¡ã€‚
+æ³¨æ„æ•´ä¸ªè¿‡ç¨‹æ˜¯å•å‘çš„ã€‚å…¶ç»“æž„ç¤ºæ„å›¾å¦‚ä¸‹ï¼š
+SubscriberæŽ¥æ”¶æ¶ˆæ¯ä¼šè¿›è¡Œå¤„ç†ï¼Œä¸€èˆ¬è¿™ä¸ªè¿‡ç¨‹å«åšå›žè°ƒ(Callback)ã€‚
+æ‰€è°“å›žè°ƒå°±æ˜¯æå‰å®šä¹‰å¥½äº†ä¸€ä¸ªå¤„ç†å‡½æ•°ï¼ˆå†™åœ¨ä»£ç ä¸­ï¼‰ï¼Œå½“æœ‰æ¶ˆæ¯æ¥å°±ä¼šè§¦å‘è¿™ä¸ªå¤„ç†å‡½æ•°ï¼Œå‡½æ•°ä¼šå¯¹æ¶ˆæ¯è¿›è¡Œå¤„ç†ã€‚
+æ³¨æ„æ•´ä¸ªè¿‡ç¨‹æ˜¯å•å‘çš„ã€‚
+ã€‹å¼•ç”¨å…¶ä»–phpæ–‡ä»¶ï¼Œinclude â€˜æ–‡ä»¶å.phpâ€™
+ã€‹è¿žæŽ¥æ•°æ®åº“ï¼šmysql_connect(HOST,USER,PASS)
+ã€‹export default æ˜¯é»˜è®¤å¯¼å‡º
+export const æ˜¯å‘½åå¯¼å‡º
+åœ¨ä¸€ä¸ªæ–‡ä»¶ä¸­export constå¯ä»¥æœ‰å¤šä¸ªï¼Œä½†æ˜¯export defaultåªæœ‰ä¸”ä»…æœ‰ä¸€ä¸ªï¼Œ
+{}è¡¨ç¤ºå¯¼å…¥éžé»˜è®¤å˜é‡ , ä¹Ÿå°±æ˜¯è¯´æ–‡ä»¶ä¸­ä¸ä½¿ç”¨export defaultå¯¼å‡ºçš„å˜é‡å°±éœ€è¦åŠ {}ï¼Œ
+ ä½¿ç”¨export defaultå¯¼å‡ºçš„å°±å¯ä»¥ä¸åŠ èŠ±æ‹¬å·ï¼Œå¦‚æžœæ˜¯å¤–éƒ¨å¼•ç”¨çš„è¯ï¼Œæ˜¯è¿™æ ·ï¼š
 
-import dea£¨ÈÎÒâ£© from 'demo1' //µ¼ÈëµÄÊ±ºò¿ÉÒÔ¸øÕâ¸öÄ£¿éÈÎÒâÈ¡Ãû×Ö£¬ÇÒ²»ÐèÒªÓÃ»¨À¨ºÅ
+import deaï¼ˆä»»æ„ï¼‰ from 'demo1' //å¯¼å…¥çš„æ—¶å€™å¯ä»¥ç»™è¿™ä¸ªæ¨¡å—ä»»æ„å–åå­—ï¼Œä¸”ä¸éœ€è¦ç”¨èŠ±æ‹¬å·
 ----------------------------------------------------------------------------------------------------------------
 2022.08.18
 ----------------------------------------------------------------------------------------------------------------
-¡·²âÊÔ±äÁ¿ÊÇ·ñ´æÔÚ
-1¡¢isset( )£»²âÊÔÒ»¸ö±äÁ¿ÊÇ·ñ´æÔÚ/ÊÇ·ñ±»ÉèÖÃ£¨Êä³öÎªnull/Î´ÉèÖÃ£©
-2¡¢empty( );²âÊÔÒ»¸ö±äÁ¿ÊÇ·ñÎª¿Õ£¬µ«±äÁ¿´æÔÚ
-¡·Êä³ö
-1¡¢echo( );Ö±½ÓÊä³öÄÚÈÝ
-2¡¢var_dump( );Êä³ö±äÁ¿ÀàÐÍ¡¢¼ü¼°Öµ
-3¡¢printf( );¸ñÊ½»¯Êä³ö
-     eg£ºprintf('------%s-----%s-----',$a $b);
-4¡¢sprintf( );·µ»Ø¸ñÊ½»¯×Ö·û´®£¬²»´òÓ¡
-5¡¢print_r ( )ÓÃÓÚ´òÓ¡Êý×é
-Ô­¸ñÊ½Êä³ö£ºecho ¡®<pre>¡¯;
+ã€‹æµ‹è¯•å˜é‡æ˜¯å¦å­˜åœ¨
+1ã€isset( )ï¼›æµ‹è¯•ä¸€ä¸ªå˜é‡æ˜¯å¦å­˜åœ¨/æ˜¯å¦è¢«è®¾ç½®ï¼ˆè¾“å‡ºä¸ºnull/æœªè®¾ç½®ï¼‰
+2ã€empty( );æµ‹è¯•ä¸€ä¸ªå˜é‡æ˜¯å¦ä¸ºç©ºï¼Œä½†å˜é‡å­˜åœ¨
+ã€‹è¾“å‡º
+1ã€echo( );ç›´æŽ¥è¾“å‡ºå†…å®¹
+2ã€var_dump( );è¾“å‡ºå˜é‡ç±»åž‹ã€é”®åŠå€¼
+3ã€printf( );æ ¼å¼åŒ–è¾“å‡º
+     egï¼šprintf('------%s-----%s-----',$a $b);
+4ã€sprintf( );è¿”å›žæ ¼å¼åŒ–å­—ç¬¦ä¸²ï¼Œä¸æ‰“å°
+5ã€print_r ( )ç”¨äºŽæ‰“å°æ•°ç»„
+åŽŸæ ¼å¼è¾“å‡ºï¼šecho â€˜<pre>â€™;
 	    print_r ( );
-	    echo ¡®</pre>¡¯;
-¡·ÅÐ¶Ï±äÁ¿ÀàÐÍ
-1¡¢gettype( );»ñÈ¡±äÁ¿ÀàÐÍ²¢·µ»Ø×Ö·û´®
-2¡¢¾«È·ÅÐ¶Ï£ºis_int( )   is_string( )  is_object( )  is_array( )
-     is_scalar( );ÅÐ¶ÏÊÇ·ñÊÇ±ê×¼ÀàÐÍ
-¡·±äÁ¿/Êý×éÉ¾³ý
+	    echo â€˜</pre>â€™;
+ã€‹åˆ¤æ–­å˜é‡ç±»åž‹
+1ã€gettype( );èŽ·å–å˜é‡ç±»åž‹å¹¶è¿”å›žå­—ç¬¦ä¸²
+2ã€ç²¾ç¡®åˆ¤æ–­ï¼šis_int( )   is_string( )  is_object( )  is_array( )
+     is_scalar( );åˆ¤æ–­æ˜¯å¦æ˜¯æ ‡å‡†ç±»åž‹
+ã€‹å˜é‡/æ•°ç»„åˆ é™¤
 unset($a);
 --------------------------------------------------------------------------------------------------------------------------
 2022.08.19
 --------------------------------------------------------------------------------------------------------------------------
-¡·js±äÁ¿ÉùÃ÷
-1£©let 
-letÓï¾äÉùÃ÷Ò»¸ö¿é¼¶×÷ÓÃÓòµÄ¾Ö²¿±äÁ¿£¬²¢¿ÉÒÔ³õÊ¼»¯ÎªÒ»¸öÖµ£¨¿ÉÑ¡£©
-let ÔÊÐíÄãÉùÃ÷Ò»¸ö×÷ÓÃÓò±»ÏÞÖÆÔÚ¿é×÷ÓÃÓòÖÐµÄ±äÁ¿¡¢Óï¾ä»òÕß±í´ïÊ½¡£
-Óï·¨£ºlet name1 [= value1] [, name2 [= value2]] [, ..., nameN [= valueN];
-2£©const
-³£Á¿ÊÇ¿é¼¶·¶Î§µÄ£¬·Ç³£ÀàËÆÓÃ let Óï¾ä¶¨ÒåµÄ±äÁ¿¡£µ«³£Á¿µÄÖµÊÇÎÞ·¨£¨Í¨¹ýÖØÐÂ¸³Öµ£©¸Ä±äµÄ£¬Ò²²»ÄÜ±»ÖØÐÂÉùÃ÷¡£
-¡·±äÁ¿ÀàÐÍ×Ô¶¯×ª»»
-1¡¢ÕûÐÎ--->×Ö·û´®
-echon $a.'!!!'--------Êä³öÎª×Ö·û´®
-2¡¢×Ö·û´®--->ÕûÐÎ
+ã€‹jså˜é‡å£°æ˜Ž
+1ï¼‰let 
+letè¯­å¥å£°æ˜Žä¸€ä¸ªå—çº§ä½œç”¨åŸŸçš„å±€éƒ¨å˜é‡ï¼Œå¹¶å¯ä»¥åˆå§‹åŒ–ä¸ºä¸€ä¸ªå€¼ï¼ˆå¯é€‰ï¼‰
+let å…è®¸ä½ å£°æ˜Žä¸€ä¸ªä½œç”¨åŸŸè¢«é™åˆ¶åœ¨å—ä½œç”¨åŸŸä¸­çš„å˜é‡ã€è¯­å¥æˆ–è€…è¡¨è¾¾å¼ã€‚
+è¯­æ³•ï¼šlet name1 [= value1] [, name2 [= value2]] [, ..., nameN [= valueN];
+2ï¼‰const
+å¸¸é‡æ˜¯å—çº§èŒƒå›´çš„ï¼Œéžå¸¸ç±»ä¼¼ç”¨ let è¯­å¥å®šä¹‰çš„å˜é‡ã€‚ä½†å¸¸é‡çš„å€¼æ˜¯æ— æ³•ï¼ˆé€šè¿‡é‡æ–°èµ‹å€¼ï¼‰æ”¹å˜çš„ï¼Œä¹Ÿä¸èƒ½è¢«é‡æ–°å£°æ˜Žã€‚
+ã€‹å˜é‡ç±»åž‹è‡ªåŠ¨è½¬æ¢
+1ã€æ•´å½¢--->å­—ç¬¦ä¸²
+echon $a.'!!!'--------è¾“å‡ºä¸ºå­—ç¬¦ä¸²
+2ã€å­—ç¬¦ä¸²--->æ•´å½¢
 $a="10hgd"
-echon $a+10--------Êä³öÎªÕûÐÎ20
-3¡¢ËùÓÐÀàÐÍ--->×ª²¼¶ûÐÍsu
+echon $a+10--------è¾“å‡ºä¸ºæ•´å½¢20
+3ã€æ‰€æœ‰ç±»åž‹--->è½¬å¸ƒå°”åž‹su
 $a=0;
 $a=0.0;
 $a=array();
@@ -68,152 +68,152 @@ $a=null;
 $a='';
 $a='0';
 $a=false;
-³ýÒÔÉÏÆßÖÖ×ª²¼¶ûÐÍÎªfalseÍâ£¬ÆäÓà¾ùÎªture
-¡·±äÁ¿ÀàÐÍÇ¿ÖÆ×ª»»
-£¨int£©£¨string£©£¨int£©£¨float£©£¨array£©
-eg£ºvar_dump((int)$a)
+é™¤ä»¥ä¸Šä¸ƒç§è½¬å¸ƒå°”åž‹ä¸ºfalseå¤–ï¼Œå…¶ä½™å‡ä¸ºture
+ã€‹å˜é‡ç±»åž‹å¼ºåˆ¶è½¬æ¢
+ï¼ˆintï¼‰ï¼ˆstringï¼‰ï¼ˆintï¼‰ï¼ˆfloatï¼‰ï¼ˆarrayï¼‰
+egï¼švar_dump((int)$a)
 
-¡·³£Á¿  define( )
-³£Á¿Ò»µ©¶¨Òå²»ÔÊÐíÔÙ¸ü¸Ä£¬¶øÇÒ³£Á¿ÃûÇ°Ã»ÓÐ$£¬³£Á¿Ãû×Ö±ØÐëÊÇ´óÐ´¡£
+ã€‹å¸¸é‡  define( )
+å¸¸é‡ä¸€æ—¦å®šä¹‰ä¸å…è®¸å†æ›´æ”¹ï¼Œè€Œä¸”å¸¸é‡åå‰æ²¡æœ‰$ï¼Œå¸¸é‡åå­—å¿…é¡»æ˜¯å¤§å†™ã€‚
 eg:define('USER','root');
      define('PASS','123');
-1¡¢Êä³ö£ºecho ¡®my name is¡¯.USER.'!!!!'
-2¡¢ÅÐ¶Ï³£Á¿ÊÇ·ñ´æÔÚ£ºvar_dump(defined('USER')); Êä³ö²¼¶ûÐÍ
-3¡¢Ô¤¶¨Òå³£Á¿£º_LINE_    µ±Ç°ÐÐÊý
-                           _FILE_   µ±Ç°ÎÄ¼þ¾ø¶ÔÂ·¾¶
-                           -FUNCTION_  ÔÚº¯ÊýÄÚÖªµÀº¯ÊýÃû
-                           M_PI  Ô²ÖÜÂÊ
-¡·ÔËËã·û£º
-1¡¢Ò»Ôª ++ --
-$a++  ÏÈ¸³ÖµºóÔËËã
-++$a  ÏÈÔËËãºó¸³Öµ
-×¢£º1£©$a++²»µÈÍ¬ÓÚ$a+=1
-       2) µ±$aÊÇ²¼¶ûÐÍÊ±£¬$a++/$a--ÈÔµÈÓÚ±¾Éí
-2¡¢¶þÔª +-*/%
-1)ÊýÑ§ÔËËã·û
+1ã€è¾“å‡ºï¼šecho â€˜my name isâ€™.USER.'!!!!'
+2ã€åˆ¤æ–­å¸¸é‡æ˜¯å¦å­˜åœ¨ï¼švar_dump(defined('USER')); è¾“å‡ºå¸ƒå°”åž‹
+3ã€é¢„å®šä¹‰å¸¸é‡ï¼š_LINE_    å½“å‰è¡Œæ•°
+                           _FILE_   å½“å‰æ–‡ä»¶ç»å¯¹è·¯å¾„
+                           -FUNCTION_  åœ¨å‡½æ•°å†…çŸ¥é“å‡½æ•°å
+                           M_PI  åœ†å‘¨çŽ‡
+ã€‹è¿ç®—ç¬¦ï¼š
+1ã€ä¸€å…ƒ ++ --
+$a++  å…ˆèµ‹å€¼åŽè¿ç®—
+++$a  å…ˆè¿ç®—åŽèµ‹å€¼
+æ³¨ï¼š1ï¼‰$a++ä¸ç­‰åŒäºŽ$a+=1
+       2) å½“$aæ˜¯å¸ƒå°”åž‹æ—¶ï¼Œ$a++/$a--ä»ç­‰äºŽæœ¬èº«
+2ã€äºŒå…ƒ +-*/%
+1)æ•°å­¦è¿ç®—ç¬¦
 +-*/%
 $a/$b
 $a%$b
-2£©¸³ÖµÔËËã·û
-=¡¢+=¡¢-=¡¢*=¡¢/=¡¢%=¡¢.=£¨µãÁ¬½Ó£©
-eg£º$str="È¸³²Õæ¸øÁ¦£¡"£»
-       $str.="Ò»µã¶¼²»À§£¡£¡£¡£¡"; 
-       Êä³ö£ºÈ¸³²Õæ¸øÁ¦£¡Ò»µã¶¼²»À§£¡£¡£¡£¡
-3£©±È½ÏÔËËã·û£¨Õæ£º1 or ¼Ù£º0£©
-<,<=,>,>=,==, !=, ===(È«µÈÓÚ), !==£¨È«²»µÈÓÚ£©
-4£©Âß¼­ÔËËã·û£¨¿ª¹Ø£©£¨Õæ£º1 or ¼Ù£º0£©
-&&£¨Óë£©  , ||£¨»ò£©£¬£¡£¨·Ç£©
-ÆäÖÐ£¬ÓëÔËËãÖÐif£¨($a=0£©&&($b=6)){.....}Èô×ó±ßÎª¼Ù£¬ÓÒ±ß½«²»Ö´ÐÐ£¬($a=0£©($b=6)Óë¸³ÖµÔËËã
-»òÔËËã×ó±ßÎª¼Ù²ÅÔËÐÐÓÒ±ß³ÌÐò£¬×ó±ßÎªÕæ½«²»ÔÙÔËÐÐÓÒ±ß³ÌÐò
-3¡¢ÈýÔªÔËËã·û£¨ÈýÔªÊý£©
+2ï¼‰èµ‹å€¼è¿ç®—ç¬¦
+=ã€+=ã€-=ã€*=ã€/=ã€%=ã€.=ï¼ˆç‚¹è¿žæŽ¥ï¼‰
+egï¼š$str="é›€å·¢çœŸç»™åŠ›ï¼"ï¼›
+       $str.="ä¸€ç‚¹éƒ½ä¸å›°ï¼ï¼ï¼ï¼"; 
+       è¾“å‡ºï¼šé›€å·¢çœŸç»™åŠ›ï¼ä¸€ç‚¹éƒ½ä¸å›°ï¼ï¼ï¼ï¼
+3ï¼‰æ¯”è¾ƒè¿ç®—ç¬¦ï¼ˆçœŸï¼š1 or å‡ï¼š0ï¼‰
+<,<=,>,>=,==, !=, ===(å…¨ç­‰äºŽ), !==ï¼ˆå…¨ä¸ç­‰äºŽï¼‰
+4ï¼‰é€»è¾‘è¿ç®—ç¬¦ï¼ˆå¼€å…³ï¼‰ï¼ˆçœŸï¼š1 or å‡ï¼š0ï¼‰
+&&ï¼ˆä¸Žï¼‰  , ||ï¼ˆæˆ–ï¼‰ï¼Œï¼ï¼ˆéžï¼‰
+å…¶ä¸­ï¼Œä¸Žè¿ç®—ä¸­ifï¼ˆ($a=0ï¼‰&&($b=6)){.....}è‹¥å·¦è¾¹ä¸ºå‡ï¼Œå³è¾¹å°†ä¸æ‰§è¡Œï¼Œ($a=0ï¼‰($b=6)ä¸Žèµ‹å€¼è¿ç®—
+æˆ–è¿ç®—å·¦è¾¹ä¸ºå‡æ‰è¿è¡Œå³è¾¹ç¨‹åºï¼Œå·¦è¾¹ä¸ºçœŸå°†ä¸å†è¿è¡Œå³è¾¹ç¨‹åº
+3ã€ä¸‰å…ƒè¿ç®—ç¬¦ï¼ˆä¸‰å…ƒæ•°ï¼‰
 $a?$b:$c
-4¡¢ÔËËã·ûÓÅÏÈ¼¶
-1£©++£¬-- £¨¸ß£© 
-2)  *£¬/£¬%  
+4ã€è¿ç®—ç¬¦ä¼˜å…ˆçº§
+1ï¼‰++ï¼Œ-- ï¼ˆé«˜ï¼‰ 
+2)  *ï¼Œ/ï¼Œ%  
 3)  >  +, - , . ,
 4)   <,<=,>,>=
 5)  ==, !=, ===, !==
-6)  Î»ÔËËã·û£º&£¨½«Á½¸ö¶þ½øÖÆÊýÖðÎ»ÏàÓë£© ,|£¨½«Á½¸ö¶þ½øÖÆÊýÖðÎ»Ïà»ò£©
+6)  ä½è¿ç®—ç¬¦ï¼š&ï¼ˆå°†ä¸¤ä¸ªäºŒè¿›åˆ¶æ•°é€ä½ç›¸ä¸Žï¼‰ ,|ï¼ˆå°†ä¸¤ä¸ªäºŒè¿›åˆ¶æ•°é€ä½ç›¸æˆ–ï¼‰
 7) &&  , ||
-8£©£¿£º
-9£©=¡¢+=¡¢-=¡¢*=¡¢/=¡¢%=£¨µÍ£©
+8ï¼‰ï¼Ÿï¼š
+9ï¼‰=ã€+=ã€-=ã€*=ã€/=ã€%=ï¼ˆä½Žï¼‰
 5
-1) new ÓÃÓÚ´´½¨ÀàµÄ¶ÔÏó
-2) @ ÓÃÓÚÆÁ±Î´íÎóÓë¾¯¸æ
-3) -> ÓÃÓÚÁ¬½Ó¶ÔÏóÊôÐÔ
-4) => ÓÃÓÚ¸³Öµ Á¬½Ó¼üÖµ
-5) instanceof ÅÐ¶ÏÒ»¸ö¶ÔÏóÊÇ·ñÊÇ´ÓÒ»¸öÀàÀïÊµÀý»¯³öÀ´
+1) new ç”¨äºŽåˆ›å»ºç±»çš„å¯¹è±¡
+2) @ ç”¨äºŽå±è”½é”™è¯¯ä¸Žè­¦å‘Š
+3) -> ç”¨äºŽè¿žæŽ¥å¯¹è±¡å±žæ€§
+4) => ç”¨äºŽèµ‹å€¼ è¿žæŽ¥é”®å€¼
+5) instanceof åˆ¤æ–­ä¸€ä¸ªå¯¹è±¡æ˜¯å¦æ˜¯ä»Žä¸€ä¸ªç±»é‡Œå®žä¾‹åŒ–å‡ºæ¥
 ------------------------------------------------------------------------------------------------------------------------------
 2022.08.19
 -------------------------------------------------------------------------------------------------------------------------------
-¡·µ¥·ÖÖ§½á¹¹
-1¡¢if(){.......}
+ã€‹å•åˆ†æ”¯ç»“æž„
+1ã€if(){.......}
       else{.........}
-¡·¶à·ÖÖ¦½á¹¹
-1¡¢if(){......}
+ã€‹å¤šåˆ†æžç»“æž„
+1ã€if(){......}
       elseif(){......}
       else{.......}
-2¡¢switch(){
+2ã€switch(){
       case 1:
            echo'zhouyi';
            break;
        case 2:
            echo'zhouer';
       }
-¡·Ñ­»·¿ØÖÆ
-1¡¢while
-2¡¢for($i=0;$i<10;$i++){......}
-¡·ÌØÊâÁ÷³Ì¿ØÖÆ
-1¡¢break ½áÊøÕû¸öÑ­»·
-2¡¢continue ½áÊø±¾´ÎÑ­»·
-3¡¢exit( )µÈÍ¬die()
-4¡¢die( ) ½áÊøÒ³Ãæ½Å±¾
+ã€‹å¾ªçŽ¯æŽ§åˆ¶
+1ã€while
+2ã€for($i=0;$i<10;$i++){......}
+ã€‹ç‰¹æ®Šæµç¨‹æŽ§åˆ¶
+1ã€break ç»“æŸæ•´ä¸ªå¾ªçŽ¯
+2ã€continue ç»“æŸæœ¬æ¬¡å¾ªçŽ¯
+3ã€exit( )ç­‰åŒdie()
+4ã€die( ) ç»“æŸé¡µé¢è„šæœ¬
 -------------------------------------------------------------------------------------------------------------------------------
 2022.08.25
 -------------------------------------------------------------------------------------------------------------------------------
-¡·º¯Êý
-1¡¢phpÓïÑÔ½á¹¹
+ã€‹å‡½æ•°
+1ã€phpè¯­è¨€ç»“æž„
 if() for() while() switch() array() echo() print() list() isset() unset() foreach() exit() die() include() require() empty()
-ÅÐ¶ÏÊÇ·ñÊÇÄÚÖÃº¯Êý£ºfunction_exists("tab");   ÒÔÉÏ¾ù²»ÊÇÄÚÖÃº¯Êý
-2¡¢ÏµÍ³º¯Êý 
+åˆ¤æ–­æ˜¯å¦æ˜¯å†…ç½®å‡½æ•°ï¼šfunction_exists("tab");   ä»¥ä¸Šå‡ä¸æ˜¯å†…ç½®å‡½æ•°
+2ã€ç³»ç»Ÿå‡½æ•° 
 	count();  array_merge();
-3¡¢×Ô¶¨Òåº¯Êý
-¡·±äÁ¿µÄ×÷ÓÃÓò
-1¡¢¾Ö²¿±äÁ¿£ºº¯ÊýÀïÃæµÄ±äÁ¿
-2¡¢È«¾Ö±äÁ¿£ºº¯ÊýÍâÃæµÄ±äÁ¿
-3¡¢Á¬½ÓÈ«¾ÖÓë¾Ö²¿£ºglobal $i;
-4¡¢³¬È«¾Ö³£Á¿
-1£©³£Á¿
-2£©Ô¤¶¨Òå³£Á¿
-3£©³¬È«¾ÖÊý×é   $_GET
-×¢£º   1¡¢È«¾Ö±äÁ¿²»ÄÜÓÃÓÚº¯Êý¾Ö²¿£¬¾Ö²¿±äÁ¿²»ÄÜÓÃÓÚÈ«¾Ö£¬È«¾ÖÓë¾Ö²¿¿ÉÓÃglobal $i;Á¬½Ó¡£
-5¡¢¾²Ì¬±äÁ¿£¨static $i;£©
-º¯ÊýÄÚÍ¬Ò»±äÁ¿ÔÚÍ¬Ãûº¯Êýµ÷ÓÃ¶à´ÎµÄÇé¿öÏÂÄÜ¹»Á¬ÐøÊ¹ÓÃ
+3ã€è‡ªå®šä¹‰å‡½æ•°
+ã€‹å˜é‡çš„ä½œç”¨åŸŸ
+1ã€å±€éƒ¨å˜é‡ï¼šå‡½æ•°é‡Œé¢çš„å˜é‡
+2ã€å…¨å±€å˜é‡ï¼šå‡½æ•°å¤–é¢çš„å˜é‡
+3ã€è¿žæŽ¥å…¨å±€ä¸Žå±€éƒ¨ï¼šglobal $i;
+4ã€è¶…å…¨å±€å¸¸é‡
+1ï¼‰å¸¸é‡
+2ï¼‰é¢„å®šä¹‰å¸¸é‡
+3ï¼‰è¶…å…¨å±€æ•°ç»„   $_GET
+æ³¨ï¼š   1ã€å…¨å±€å˜é‡ä¸èƒ½ç”¨äºŽå‡½æ•°å±€éƒ¨ï¼Œå±€éƒ¨å˜é‡ä¸èƒ½ç”¨äºŽå…¨å±€ï¼Œå…¨å±€ä¸Žå±€éƒ¨å¯ç”¨global $i;è¿žæŽ¥ã€‚
+5ã€é™æ€å˜é‡ï¼ˆstatic $i;ï¼‰
+å‡½æ•°å†…åŒä¸€å˜é‡åœ¨åŒåå‡½æ•°è°ƒç”¨å¤šæ¬¡çš„æƒ…å†µä¸‹èƒ½å¤Ÿè¿žç»­ä½¿ç”¨
 -------------------------------------------------------------------------------------------------------------------------------------
 2022.08.26
 --------------------------------------------------------------------------------------------------------------------------------------
-¡·º¯Êý²ÎÊý
-1¡¢×Ô¶¨Òå²ÎÊý
-2¡¢Ä¬ÈÏ²ÎÊý
-3¡¢»Øµ÷²ÎÊý£º½«Ò»¸öº¯Êý×÷Îª²ÎÊý´«Èë
-4¡¢ÒýÓÃ²ÎÊý£º$a=10;  $b=&$a;  &½«$aµÄÒýÓÃµØÖ·¸³¸ø$b
-eg£º  $a=10;  $b=&$a;  $b=100;   echo $a; =>100
-¡·º¯Êý
-1¡¢±äÁ¿º¯Êý
-2¡¢¿É±ä¸öÊý²ÎÊýµÄº¯Êý
-3¡¢µÝ¹éº¯Êý
-4¡¢ÈçºÎÌá¸ß´úÂëÖØÓÃÐÔ
-5¡¢Êý×é¶¨Òå
-6¡¢³¬È«¾ÖÊý×é
-intval() º¯ÊýÓÃÓÚ»ñÈ¡±äÁ¿µÄÕûÊýÖµ¡£ int intval ( mixed $var [, int $base = 10 ] )
-intval() º¯ÊýÍ¨¹ýÊ¹ÓÃÖ¸¶¨µÄ½øÖÆ base ×ª»»£¨Ä¬ÈÏÊÇÊ®½øÖÆ£©£¬·µ»Ø±äÁ¿ var µÄ integer ÊýÖµ¡£ 
-intval() ²»ÄÜÓÃÓÚ object£¬·ñÔò»á²úÉú E_NOTICE ´íÎó²¢·µ»Ø 1¡£
+ã€‹å‡½æ•°å‚æ•°
+1ã€è‡ªå®šä¹‰å‚æ•°
+2ã€é»˜è®¤å‚æ•°
+3ã€å›žè°ƒå‚æ•°ï¼šå°†ä¸€ä¸ªå‡½æ•°ä½œä¸ºå‚æ•°ä¼ å…¥
+4ã€å¼•ç”¨å‚æ•°ï¼š$a=10;  $b=&$a;  &å°†$açš„å¼•ç”¨åœ°å€èµ‹ç»™$b
+egï¼š  $a=10;  $b=&$a;  $b=100;   echo $a; =>100
+ã€‹å‡½æ•°
+1ã€å˜é‡å‡½æ•°
+2ã€å¯å˜ä¸ªæ•°å‚æ•°çš„å‡½æ•°
+3ã€é€’å½’å‡½æ•°
+4ã€å¦‚ä½•æé«˜ä»£ç é‡ç”¨æ€§
+5ã€æ•°ç»„å®šä¹‰
+6ã€è¶…å…¨å±€æ•°ç»„
+intval() å‡½æ•°ç”¨äºŽèŽ·å–å˜é‡çš„æ•´æ•°å€¼ã€‚ int intval ( mixed $var [, int $base = 10 ] )
+intval() å‡½æ•°é€šè¿‡ä½¿ç”¨æŒ‡å®šçš„è¿›åˆ¶ base è½¬æ¢ï¼ˆé»˜è®¤æ˜¯åè¿›åˆ¶ï¼‰ï¼Œè¿”å›žå˜é‡ var çš„ integer æ•°å€¼ã€‚ 
+intval() ä¸èƒ½ç”¨äºŽ objectï¼Œå¦åˆ™ä¼šäº§ç”Ÿ E_NOTICE é”™è¯¯å¹¶è¿”å›ž 1ã€‚
 ----------------------------------------------------------------------------------------------------------------------------------------
 2022.8.27
 ----------------------------------------------------------------------------------------------------------------------------------------
-¡·±äÁ¿º¯Êý
-1¡¢function show( ){ };
+ã€‹å˜é‡å‡½æ•°
+1ã€function show( ){ };
 $var='show';
 $var( );
-¡·¿É±ä¸öÊý²ÎÊýµÄº¯Êý
-1¡¢º¯ÊýÌåÄÚÌí¼Ófunc_get_args();º¯ÊýÓÃÓÚ»ñÈ¡´«ÈëµÄ²»¶¨¸öÊýÊýÖµ²¢±£´æÎªÊý×é¸ñÊ½¡£
-eg£ºfunction show( ){ 
+ã€‹å¯å˜ä¸ªæ•°å‚æ•°çš„å‡½æ•°
+1ã€å‡½æ•°ä½“å†…æ·»åŠ func_get_args();å‡½æ•°ç”¨äºŽèŽ·å–ä¼ å…¥çš„ä¸å®šä¸ªæ•°æ•°å€¼å¹¶ä¿å­˜ä¸ºæ•°ç»„æ ¼å¼ã€‚
+egï¼šfunction show( ){ 
                 $arr=func_get_args();
 	echo"<pre>";
 	print_r($arr);
 	echo"</pre>";
         };
-        show(1,2,3,4,5,6); ===>Êä³öÎªÊý×éarray£¨[0]=>1.........£©
-2¡¢º¯ÊýÌåÄÚÌí¼Ófunc_num_args();º¯ÊýÓÃÓÚ»ñÈ¡´«ÈëµÄ²»¶¨²ÎÊýµÄ¸öÊý²¢±£´æÎªÕûÊýÐÍ¡£
-eg£ºfunction show( ){ 
+        show(1,2,3,4,5,6); ===>è¾“å‡ºä¸ºæ•°ç»„arrayï¼ˆ[0]=>1.........ï¼‰
+2ã€å‡½æ•°ä½“å†…æ·»åŠ func_num_args();å‡½æ•°ç”¨äºŽèŽ·å–ä¼ å…¥çš„ä¸å®šå‚æ•°çš„ä¸ªæ•°å¹¶ä¿å­˜ä¸ºæ•´æ•°åž‹ã€‚
+egï¼šfunction show( ){ 
                 $num=func_num_args();
 	echo $num;
         };
-        show(1,2,3,4,5,6); ===>Êä³öÎªÕûÊý 6
-¡·µÝ¹éº¯Êý£º×Ô¼ºµ÷ÓÃ×Ô¼º£¬Ò»²½Ò»²½½ø£¬Ò»²½Ò»²½ÍË
-eg£º$n=3;
+        show(1,2,3,4,5,6); ===>è¾“å‡ºä¸ºæ•´æ•° 6
+ã€‹é€’å½’å‡½æ•°ï¼šè‡ªå·±è°ƒç”¨è‡ªå·±ï¼Œä¸€æ­¥ä¸€æ­¥è¿›ï¼Œä¸€æ­¥ä¸€æ­¥é€€
+egï¼š$n=3;
         function sum($n){ 
-                static $tot; //±äÁ¿ÔÚ¶à´Îµ÷ÓÃÊ±£¬Ã¿´Îµ÷ÓÃ»á±»ÇåÁã£¬¼Óstatic×÷Îª¾²Ì¬±äÁ¿ºó¿É±»¶à´ÎÀÛ»ýµ÷ÓÃ
+                static $tot; //å˜é‡åœ¨å¤šæ¬¡è°ƒç”¨æ—¶ï¼Œæ¯æ¬¡è°ƒç”¨ä¼šè¢«æ¸…é›¶ï¼ŒåŠ staticä½œä¸ºé™æ€å˜é‡åŽå¯è¢«å¤šæ¬¡ç´¯ç§¯è°ƒç”¨
                 $tot+=$n;
 	if($n>1){
                        sun($n-1);
@@ -232,32 +232,32 @@ eg£º$n=3;
 	 return $tot;
          };
          sum($n);
-¡·ÈçºÎÌá¸ß´úÂëÖØÓÃÐÔ
-1¡¢include  Èô³öÏÖ´íÎó±¨warning²»Ó°ÏìÒ³ÃæºóÃæ½Å±¾Ö´ÐÐ
-2¡¢require  Èô³öÏÖ´íÎó±¨error ºóÃæ½Å±¾½«²»ÔÙÖ´ÐÐ
-¡·Êý×é·ÖÀà
-1¡¢Ë÷ÒýÊý×é
-2¡¢¹ØÁªÊý×é
-3¡¢»ìºÏÊý×é
-¡·Êý×é¶¨Òå (¼üÖµ¶Ô key | value)
-1¡¢Ë÷ÒýÊý×é
+ã€‹å¦‚ä½•æé«˜ä»£ç é‡ç”¨æ€§
+1ã€include  è‹¥å‡ºçŽ°é”™è¯¯æŠ¥warningä¸å½±å“é¡µé¢åŽé¢è„šæœ¬æ‰§è¡Œ
+2ã€require  è‹¥å‡ºçŽ°é”™è¯¯æŠ¥error åŽé¢è„šæœ¬å°†ä¸å†æ‰§è¡Œ
+ã€‹æ•°ç»„åˆ†ç±»
+1ã€ç´¢å¼•æ•°ç»„
+2ã€å…³è”æ•°ç»„
+3ã€æ··åˆæ•°ç»„
+ã€‹æ•°ç»„å®šä¹‰ (é”®å€¼å¯¹ key | value)
+1ã€ç´¢å¼•æ•°ç»„
 $arr=array(1,3,5);
-$arr=array(10=>1,20=>3,30=>5); //ÐÞ¸Ä¼ü
+$arr=array(10=>1,20=>3,30=>5); //ä¿®æ”¹é”®
 $arr[0]='a';
 $arr[]='b';
-$arr[]='c'; //¿É×Ô¶¯²¹È«ËùÈ±¼ü
-2¡¢¹ØÁªÊý×é
+$arr[]='c'; //å¯è‡ªåŠ¨è¡¥å…¨æ‰€ç¼ºé”®
+2ã€å…³è”æ•°ç»„
         $arr=array(
 	'name'='xiaohua',
 	'age'='18',
 	'sex'='nicai',
           );
-3¡¢»ìºÏÊý×é
+3ã€æ··åˆæ•°ç»„
         $arr=array(
 	'xiaohua',
 	'age'='18',
           );
-¡·¶àÎ¬Êý×é
+ã€‹å¤šç»´æ•°ç»„
         $arr=array(
 	'name'='xiaohua',
 	'age'='18',
@@ -268,34 +268,34 @@ $arr[]='c'; //¿É×Ô¶¯²¹È«ËùÈ±¼ü
 			eat
 		        )
           );
-¡·³¬È«¾ÖÊý×é  ²»ÐèÒª¶¨Òå£¬±¾Éí¾Í´æÔÚ
-1¡¢$_SERVER  ²é¿´·þÎñÆ÷ÐÅÏ¢
-[ 'SERVER_NAME']  ·þÎñÆ÷ÓòÃû
-[ 'REMOTE_ADDR']  ¿Í»§¶Ëip
-[ 'SERVER_ADDR']  ·þÎñÆ÷ip
-[ 'SERVER_PORT']  ·þÎñÆ÷¶Ë¿Ú
-[ 'DOCUMENT_ROOT']  ÍøÕ¾¸ùÄ¿Â¼
-[ ' SCRIPT_FLIENAME']  µ±Ç°½Å±¾µÄÏµÍ³¾ø¶ÔÂ·¾¶
-[ 'REQUEST_URI']  µ±Ç°½Å±¾µÄÍøÕ¾¾ø¶ÔÂ·¾¶
-[ 'PHP_SELF']  µ±Ç°½Å±¾µÄÍøÕ¾¾ø¶ÔÂ·¾¶
-2¡¢$_GET  ¿ÉÓÃÀ´½ÓÊÕaÁ¬½Ó/±íµ¥Ìá½»ÐÅÏ¢
-3¡¢$_POST  ¿ÉÓÃÀ´½ÓÊÕ±íµ¥Ìá½»ÐÅÏ¢£¬±íµ¥Ìá½»ÐÅÏ¢Ê±¶àÊ¹ÓÃpost£¬Òòget ÐÅÏ¢»áÔÚµØÖ·À¸ÏÔÊ¾
-4¡¢$_REQUEST  Í¬Ê±¿ÉÒÔ½ÓÊÜgetºÍpostÌá½»µÄÊý¾Ý µ«·´Ó³ËÙ¶ÈÂý
-5¡¢$_FLIES
-6¡¢$_COOKIE
-7¡¢$_SESSION
-8¡¢$GLOBALS  1.°üº¬$_GETÊý¾Ý 2.°üº¬$_POSTÊý¾Ý 3.°üº¬$_COOKIEÊý¾Ý 4.°üº¬$_FILESÊý¾Ý
-¡·²é¿´Êý×éÄÚÈÝ
-1¡¢print_r(); 
-2¡¢var_dump();
-×¢£ºÎª´òÓ¡¸üÇåÎú£¬Ò»°ã¼Ópre±êÇ© echo'<pre>'; print_r(); echo'<pre>';
-¡·Êý×é±éÀú
-1¡¢for(){};
-±éÀúÊý×é²»½¨ÒéÊ¹ÓÃ£¬Òò×Ö·û´®ÏÂ±ê»òÏÂ±ê¿ç¶ÈÌ«´ó
-2¡¢foreach($arr as $key=>$value){
+ã€‹è¶…å…¨å±€æ•°ç»„  ä¸éœ€è¦å®šä¹‰ï¼Œæœ¬èº«å°±å­˜åœ¨
+1ã€$_SERVER  æŸ¥çœ‹æœåŠ¡å™¨ä¿¡æ¯
+[ 'SERVER_NAME']  æœåŠ¡å™¨åŸŸå
+[ 'REMOTE_ADDR']  å®¢æˆ·ç«¯ip
+[ 'SERVER_ADDR']  æœåŠ¡å™¨ip
+[ 'SERVER_PORT']  æœåŠ¡å™¨ç«¯å£
+[ 'DOCUMENT_ROOT']  ç½‘ç«™æ ¹ç›®å½•
+[ ' SCRIPT_FLIENAME']  å½“å‰è„šæœ¬çš„ç³»ç»Ÿç»å¯¹è·¯å¾„
+[ 'REQUEST_URI']  å½“å‰è„šæœ¬çš„ç½‘ç«™ç»å¯¹è·¯å¾„
+[ 'PHP_SELF']  å½“å‰è„šæœ¬çš„ç½‘ç«™ç»å¯¹è·¯å¾„
+2ã€$_GET  å¯ç”¨æ¥æŽ¥æ”¶aè¿žæŽ¥/è¡¨å•æäº¤ä¿¡æ¯
+3ã€$_POST  å¯ç”¨æ¥æŽ¥æ”¶è¡¨å•æäº¤ä¿¡æ¯ï¼Œè¡¨å•æäº¤ä¿¡æ¯æ—¶å¤šä½¿ç”¨postï¼Œå› get ä¿¡æ¯ä¼šåœ¨åœ°å€æ æ˜¾ç¤º
+4ã€$_REQUEST  åŒæ—¶å¯ä»¥æŽ¥å—getå’Œpostæäº¤çš„æ•°æ® ä½†åæ˜ é€Ÿåº¦æ…¢
+5ã€$_FLIES
+6ã€$_COOKIE
+7ã€$_SESSION
+8ã€$GLOBALS  1.åŒ…å«$_GETæ•°æ® 2.åŒ…å«$_POSTæ•°æ® 3.åŒ…å«$_COOKIEæ•°æ® 4.åŒ…å«$_FILESæ•°æ®
+ã€‹æŸ¥çœ‹æ•°ç»„å†…å®¹
+1ã€print_r(); 
+2ã€var_dump();
+æ³¨ï¼šä¸ºæ‰“å°æ›´æ¸…æ™°ï¼Œä¸€èˆ¬åŠ preæ ‡ç­¾ echo'<pre>'; print_r(); echo'<pre>';
+ã€‹æ•°ç»„éåŽ†
+1ã€for(){};
+éåŽ†æ•°ç»„ä¸å»ºè®®ä½¿ç”¨ï¼Œå› å­—ç¬¦ä¸²ä¸‹æ ‡æˆ–ä¸‹æ ‡è·¨åº¦å¤ªå¤§
+2ã€foreach($arr as $key=>$value){
 	echo $sky."=>".$value;
 }
-3¡¢list,each,while±éÀú    list¿´²»µ½×Ö·û´®ÏÂ±êµÄÖµ,µ±±éÀúÎª¿ÕÊ±·µ»Øfalse
+3ã€list,each,whileéåŽ†    listçœ‹ä¸åˆ°å­—ç¬¦ä¸²ä¸‹æ ‡çš„å€¼,å½“éåŽ†ä¸ºç©ºæ—¶è¿”å›žfalse
 eg:  $arr=array(
 	'name'='xiaohua',
 	'age'='18',
@@ -310,521 +310,521 @@ while(list($k,$v)=each($arr)){
 ---------------------------------------------------------------------------------------------------------------------------------------
 2022.8.28
 ------------------------------------------------------------------------------------------------------------------------------------------
-4¡¢Ê¹ÓÃÊý×éµÄÄÚ²¿Ö¸Õë¿ØÖÆº¯Êý±éÀúÊý×é next(),prev(),end(),reset()
-¡·±íµ¥Êý¾ÝÈçºÎÌá½»¸øphpÎÄ¼þ:£¨¼ûÔÆÃÎP15 ºó13·Ö£©
-1.textÊý¾Ý
+4ã€ä½¿ç”¨æ•°ç»„çš„å†…éƒ¨æŒ‡é’ˆæŽ§åˆ¶å‡½æ•°éåŽ†æ•°ç»„ next(),prev(),end(),reset()
+ã€‹è¡¨å•æ•°æ®å¦‚ä½•æäº¤ç»™phpæ–‡ä»¶:ï¼ˆè§äº‘æ¢¦P15 åŽ13åˆ†ï¼‰
+1.textæ•°æ®
 <input type='text' name='username ' >
-2.passwordÊý¾Ý
+2.passwordæ•°æ®
 <input type='password' name="password'>
-3.radioµ¥Ñ¡Êý¾Ý
+3.radioå•é€‰æ•°æ®
 <label>
       <input type="radio" name="product" value="linux"> linux
 </ label>
-4.checkbox¶àÑ¡Êý¾Ý
+4.checkboxå¤šé€‰æ•°æ®
 <label>
      <input type="checkbox" name="love[ ]" value="football">football
 </ label>
-5.selectÏÂÀ­²Ëµ¥Êý¾Ý
+5.selectä¸‹æ‹‰èœå•æ•°æ®
 <select name="city" id="">
       <option value="bj">bj</option>
       <option value="sh">sh</option>
       <option value="ty">ty</option>
 </select>
-6.¶àÑ¡ÏÂÀ­²Ëµ¥Êý¾Ý
+6.å¤šé€‰ä¸‹æ‹‰èœå•æ•°æ®
 <select name="interest[ ]" multiple size='5'>
-      <option value="movie">Ñ§Ï°</option>
-      <option value="looker">Ñ§Ï°</option>
-      <option value="smalljin">Ñ§Ï°</option>
+      <option value="movie">å­¦ä¹ </option>
+      <option value="looker">å­¦ä¹ </option>
+      <option value="smalljin">å­¦ä¹ </option>
 </select>
-6.textareaÎÄ±¾ÓòÊý¾Ý
+6.textareaæ–‡æœ¬åŸŸæ•°æ®
 <textarea name="mess" id="" cols="30" rows="10"></textarea>
-¡·
-mt_rand(1,100)  ¿ÉÈ¡1~100µÄÈÎÒâÊý×Ö
-count($arr) »ñÈ¡Êý¾ÝÔªËØ¸öÊý
-strlen($val) »ñÈ¡Êý×éÔªËØ³¤¶È
-¡·Êý×éµÄ¼üÖµ²Ù×÷º¯Êý
-array_values();  »ñÈ¡Êý×éÖÐµÄÖµ
-array_keys();»ñÈ¡Êý×éÖÐµÄ¼ü
-in_array();  ¼ì²éÒ»¸öÖµÊÇ·ñÔÚÊý×éÖÐ.
-array_key _exists();  ¼ì²éÒ»¸ö¼üÊÇ·ñÔÚÊý×éÖÐ
-array_flip();  ¼üºÍÖµ¶Ôµ÷
-array_reverse();  Êý×éÖÐµÄÖµ·´×ª
-¡·Í³¼ÆÊý×éµÄÔªËØºÍÎ¨Ò»ÐÔ.
-count();  Í³¼ÆÊý×éµÄ¸öÊý
-array_count_values();  Í³¼ÆÊý×éÖÐÖµ³öÏÖµÄ´ÎÊý 
-array_unique();  É¾³ýÊý×éÖÐÖØ¸´Öµ
-¡·Ê¹ÓÃ»Øµ÷²ÎÊý´¦ÀíÊý×éµÄº¯Êý 
-array_filter();  Êý×éÖµ¹ýÂË
-array_map();  ½«»Øµ÷º¯Êý×÷ÓÃµ½¸ø¶¨Êý×éµÄµ¥ÔªÉÏ
-¡·Êý×éµÄÅÅÐòº¯Êý(¶¼»á¸Ä±äÔ­Êý¾Ý)
-sort();  °´Öµ°ÑÊý×éÖµ½øÐÐÅÅÐò,ÉýÐò,²»±£Áôkey.
-rsort(); °´Öµ°ÑÊý×éÖµ½øÐÐÅÅÐò,½µÐò,²»±£Áôkey 
-asort();  °´Öµ°ÑÊý×éÖµ½øÐÐÅÅÐò,ÉýÐò,±£Áôkey 
-arsort(();  °´Öµ°ÑÊý×éÖµ½øÐÐÅÅÐò,½µÐò,±£Áôkey.
-ksort();  °´¼ü°ÑÊý×éÖµ½øÐÐÅÅÐò,ÉýÐò,±£Áôkey¡¤
-krsort();  °´¼ü°ÑÊý×éÖµ½øÐÐÅÅÐò,½µÐò,±£Áôkey.
-natsort(); °´×ÔÈ»ÊýÅÅÐò£¬±£Áôkey£¨×Ö·û´®ÅÅÐò£©
-natcasesort(();  ºöÂÔ´óÐ¡Ð´µÄ×ÔÈ»ÊýÅÅÐò. 
-array_multisort(();  ÓÃÒ»¸öÊý×é¶ÔÁíÍâÒ»¸öÊý×é½øÐÐÅÅÐò
-¡·²ð·Ö¡¢ºÏ²¢¡¢·Ö½âÓë½áºÏº¯Êý
-array_slice($arr,¿ªÊ¼¼ü£¬½ØÈ¡¸öÊý); ½ØÈ¡Ò»¶ÎÖµ ²»¸Ä±äÔ­Êý×é
-array_splice(); ½ØÈ¡Ò»¶ÎÖµ£¬±£ÁôÒ»¶ÎÖµ ¸Ä±äÔ­Êý¾Ý
-array_combine(); ºÏ²¢£¬µÚÒ»¸öÊÇkey,µÚ¶þ¸öÊÇvalue 
-array_merge();=join(); ²¢¼¯ ºÏ²¢£¬Èô¼üÏàÍ¬£¬ºóÃæ¸²¸ÇÇ°Ãæ join£¨$arr,' '£©;ÓÃ¿Õ¸ñÁ¬½Ó
-implode(); °ÑÊý×éÁ¬½Ó³É×Ö·û´® 
-explode(¡®-'£¬$arr); °Ñ×Ö·û´®·Ö½â³ÉÊý×é
+ã€‹
+mt_rand(1,100)  å¯å–1~100çš„ä»»æ„æ•°å­—
+count($arr) èŽ·å–æ•°æ®å…ƒç´ ä¸ªæ•°
+strlen($val) èŽ·å–æ•°ç»„å…ƒç´ é•¿åº¦
+ã€‹æ•°ç»„çš„é”®å€¼æ“ä½œå‡½æ•°
+array_values();  èŽ·å–æ•°ç»„ä¸­çš„å€¼
+array_keys();èŽ·å–æ•°ç»„ä¸­çš„é”®
+in_array();  æ£€æŸ¥ä¸€ä¸ªå€¼æ˜¯å¦åœ¨æ•°ç»„ä¸­.
+array_key _exists();  æ£€æŸ¥ä¸€ä¸ªé”®æ˜¯å¦åœ¨æ•°ç»„ä¸­
+array_flip();  é”®å’Œå€¼å¯¹è°ƒ
+array_reverse();  æ•°ç»„ä¸­çš„å€¼åè½¬
+ã€‹ç»Ÿè®¡æ•°ç»„çš„å…ƒç´ å’Œå”¯ä¸€æ€§.
+count();  ç»Ÿè®¡æ•°ç»„çš„ä¸ªæ•°
+array_count_values();  ç»Ÿè®¡æ•°ç»„ä¸­å€¼å‡ºçŽ°çš„æ¬¡æ•° 
+array_unique();  åˆ é™¤æ•°ç»„ä¸­é‡å¤å€¼
+ã€‹ä½¿ç”¨å›žè°ƒå‚æ•°å¤„ç†æ•°ç»„çš„å‡½æ•° 
+array_filter();  æ•°ç»„å€¼è¿‡æ»¤
+array_map();  å°†å›žè°ƒå‡½æ•°ä½œç”¨åˆ°ç»™å®šæ•°ç»„çš„å•å…ƒä¸Š
+ã€‹æ•°ç»„çš„æŽ’åºå‡½æ•°(éƒ½ä¼šæ”¹å˜åŽŸæ•°æ®)
+sort();  æŒ‰å€¼æŠŠæ•°ç»„å€¼è¿›è¡ŒæŽ’åº,å‡åº,ä¸ä¿ç•™key.
+rsort(); æŒ‰å€¼æŠŠæ•°ç»„å€¼è¿›è¡ŒæŽ’åº,é™åº,ä¸ä¿ç•™key 
+asort();  æŒ‰å€¼æŠŠæ•°ç»„å€¼è¿›è¡ŒæŽ’åº,å‡åº,ä¿ç•™key 
+arsort(();  æŒ‰å€¼æŠŠæ•°ç»„å€¼è¿›è¡ŒæŽ’åº,é™åº,ä¿ç•™key.
+ksort();  æŒ‰é”®æŠŠæ•°ç»„å€¼è¿›è¡ŒæŽ’åº,å‡åº,ä¿ç•™keyÂ·
+krsort();  æŒ‰é”®æŠŠæ•°ç»„å€¼è¿›è¡ŒæŽ’åº,é™åº,ä¿ç•™key.
+natsort(); æŒ‰è‡ªç„¶æ•°æŽ’åºï¼Œä¿ç•™keyï¼ˆå­—ç¬¦ä¸²æŽ’åºï¼‰
+natcasesort(();  å¿½ç•¥å¤§å°å†™çš„è‡ªç„¶æ•°æŽ’åº. 
+array_multisort(();  ç”¨ä¸€ä¸ªæ•°ç»„å¯¹å¦å¤–ä¸€ä¸ªæ•°ç»„è¿›è¡ŒæŽ’åº
+ã€‹æ‹†åˆ†ã€åˆå¹¶ã€åˆ†è§£ä¸Žç»“åˆå‡½æ•°
+array_slice($arr,å¼€å§‹é”®ï¼Œæˆªå–ä¸ªæ•°); æˆªå–ä¸€æ®µå€¼ ä¸æ”¹å˜åŽŸæ•°ç»„
+array_splice(); æˆªå–ä¸€æ®µå€¼ï¼Œä¿ç•™ä¸€æ®µå€¼ æ”¹å˜åŽŸæ•°æ®
+array_combine(); åˆå¹¶ï¼Œç¬¬ä¸€ä¸ªæ˜¯key,ç¬¬äºŒä¸ªæ˜¯value 
+array_merge();=join(); å¹¶é›† åˆå¹¶ï¼Œè‹¥é”®ç›¸åŒï¼ŒåŽé¢è¦†ç›–å‰é¢ joinï¼ˆ$arr,' 'ï¼‰;ç”¨ç©ºæ ¼è¿žæŽ¥
+implode(); æŠŠæ•°ç»„è¿žæŽ¥æˆå­—ç¬¦ä¸² 
+explode(â€˜-'ï¼Œ$arr); æŠŠå­—ç¬¦ä¸²åˆ†è§£æˆæ•°ç»„
 ------------------------------------------------------------------------------------------------------------------------------------------
 2022.8.29
 ------------------------------------------------------------------------------------------------------------------------------------------
-¡·Êý×éÓëÊý¾Ý½á¹¹£¨¸Ä±äÔ­Êý×é£©
-array_pop(); °ÑÊý×é×îºóÒ»¸öÖµµ¯³ö£¬·µ»Øµ¯³öÖµ
-array_push(); ´ÓÊý×é×îºóÑ¹ÈëÒ»¸öÖµ£¬·µ»ØÐÂÊý×é¸öÊý 
-array_shift();  ´ÓÊý×é×îÇ°Ãæµ¯³öÒ»¸öÖµ,·µ»ØÒÆ³öÖµ,Ô­Êý×éÏÂ±êÖØÅÅ
-array_unshift();  ´Ó×îÇ°Ãæ²åÈëÒ»¸öÖµ,·µ»ØÐÂÊý×é¸öÊý
- ¡·ÆäËûÓÐÓÃµÄÊý×é´¦Àíº¯Êý 
-array_rand();  Ëæ»úÈ¡Ò»¸ökey 
-shuffle();  ´òÂÒÊý×é
-array_sum();  Êý×éËùÓÐÖµµÄºÍ 
-array_product();  Êý×éËùÓÐÖµµÄ³Ë»ý 
-range();  ×Ô¶¯Éú³ÉÒ»¸ö·¶Î§ÄÚµÄÊý×é£¨0£¬9£©¡¢£¨a£¬z£©¡¢£¨A,Z£©
-¡·×Ö·û´®Êä³ö
+ã€‹æ•°ç»„ä¸Žæ•°æ®ç»“æž„ï¼ˆæ”¹å˜åŽŸæ•°ç»„ï¼‰
+array_pop(); æŠŠæ•°ç»„æœ€åŽä¸€ä¸ªå€¼å¼¹å‡ºï¼Œè¿”å›žå¼¹å‡ºå€¼
+array_push(); ä»Žæ•°ç»„æœ€åŽåŽ‹å…¥ä¸€ä¸ªå€¼ï¼Œè¿”å›žæ–°æ•°ç»„ä¸ªæ•° 
+array_shift();  ä»Žæ•°ç»„æœ€å‰é¢å¼¹å‡ºä¸€ä¸ªå€¼,è¿”å›žç§»å‡ºå€¼,åŽŸæ•°ç»„ä¸‹æ ‡é‡æŽ’
+array_unshift();  ä»Žæœ€å‰é¢æ’å…¥ä¸€ä¸ªå€¼,è¿”å›žæ–°æ•°ç»„ä¸ªæ•°
+ ã€‹å…¶ä»–æœ‰ç”¨çš„æ•°ç»„å¤„ç†å‡½æ•° 
+array_rand();  éšæœºå–ä¸€ä¸ªkey 
+shuffle();  æ‰“ä¹±æ•°ç»„
+array_sum();  æ•°ç»„æ‰€æœ‰å€¼çš„å’Œ 
+array_product();  æ•°ç»„æ‰€æœ‰å€¼çš„ä¹˜ç§¯ 
+range();  è‡ªåŠ¨ç”Ÿæˆä¸€ä¸ªèŒƒå›´å†…çš„æ•°ç»„ï¼ˆ0ï¼Œ9ï¼‰ã€ï¼ˆaï¼Œzï¼‰ã€ï¼ˆA,Zï¼‰
+ã€‹å­—ç¬¦ä¸²è¾“å‡º
 $str='hello world';
 echo '<h2>'.$str.'</h2>';
 echo "<h2>{$str}</h2>";
 print "<h2>{$str}</h2>";
 printf('<h2>%s</h2>',$str);
-echo sprintf('<h2>----%s------</h2>',$str); %d ÕûÐÍ %f ¸¡µãÊý
-¡·×Ö·û´®Á¬½Ó·û  (µã)
-¡®------¡¯.$arr.'..........'
-¡·È¥³ý¿Õ¸ñºÍ×Ö·û´®Ìî²¹º¯Êý
-ltrim() È¥³ý×Ö·û´®×ó²à¿Õ¸ñ
-rtrim() È¥³ý×Ö·û´®ÓÒ²à¿Õ¸ñ
-trim() È¥³ý×Ö·û´®×óÓÒÁ½²à¿Õ¸ñ
-str_pad($str,10,'-'£¬STR_PAD_LEFT); Ê¹ÓÃÁíÒ»¸ö×Ö·û´®ÔÚÔ­×Ö·û´®×ó²àÌî³äÒÑ´ïµ½Ö¸¶¨³¤¶È
-×¢£ºSTR_PAD_RIGHT ÓÒ²à  STR_PAD_BOTH  Á½²à
-str_repeat($arr,100) ½«×Ö·û´®ÖØ¸´³öÏÖ100´Î
+echo sprintf('<h2>----%s------</h2>',$str); %d æ•´åž‹ %f æµ®ç‚¹æ•°
+ã€‹å­—ç¬¦ä¸²è¿žæŽ¥ç¬¦  (ç‚¹)
+â€˜------â€™.$arr.'..........'
+ã€‹åŽ»é™¤ç©ºæ ¼å’Œå­—ç¬¦ä¸²å¡«è¡¥å‡½æ•°
+ltrim() åŽ»é™¤å­—ç¬¦ä¸²å·¦ä¾§ç©ºæ ¼
+rtrim() åŽ»é™¤å­—ç¬¦ä¸²å³ä¾§ç©ºæ ¼
+trim() åŽ»é™¤å­—ç¬¦ä¸²å·¦å³ä¸¤ä¾§ç©ºæ ¼
+str_pad($str,10,'-'ï¼ŒSTR_PAD_LEFT); ä½¿ç”¨å¦ä¸€ä¸ªå­—ç¬¦ä¸²åœ¨åŽŸå­—ç¬¦ä¸²å·¦ä¾§å¡«å……å·²è¾¾åˆ°æŒ‡å®šé•¿åº¦
+æ³¨ï¼šSTR_PAD_RIGHT å³ä¾§  STR_PAD_BOTH  ä¸¤ä¾§
+str_repeat($arr,100) å°†å­—ç¬¦ä¸²é‡å¤å‡ºçŽ°100æ¬¡
 -----------------------------------------------------------------------------------------------------------------------
 8:14 2022/8/30
 -----------------------------------------------------------------------------------------------------------------------
-¡·×Ö·û´®´óÐ¡Ð´×ª»»º¯Êý
+ã€‹å­—ç¬¦ä¸²å¤§å°å†™è½¬æ¢å‡½æ•°
 strtolower() 
 strtoupper()
-ucfirst() ×Ö·û´®Ê××ÖÄ¸´óÐ´
-ucwords() Ã¿¸öµ¥´ÊÊ××ÖÄ¸´óÐ´
-¡·Óëhtm1±êÇ©Ïà¹ØÁªµÄ×Ö·û´®º¯Êý
-nl2br() °ÑÆäËûÓïÑÔ»»ÐÐ·û×ª»»Îªbr±êÇ©
-htmlspecialchars() ½«×Ö·û´®ÖÐHTML´úÂë×ªÎªÊµÌå
-htmlspecialchars_decode() ½âÊµÌå ½«ÊµÌå×ªÎªHTML´úÂë
-strip_tags() È¥µô×Ö·û´®ÖÐHTML´úÂë±êÇ©
-addslashes() ÔÚ¡®»ò"Ç°¼Ó / ±ÜÃâ¡¯¡°µÄÌØÊâÐÔ
-eg£ºÔö¼ÓsqlÓï¾ä°²È«ÐÔ$info=addslashes(htmlspecialchars($_POST['info'])£©p21
-stripslashes() È¥³ý×Ö·û´®ÖÐµÄ / 
-¡·ÆäËû×Ö·û´®¸ñÊ½»¯º¯Êý
-strrev() ½«×Ö·û´®·­×ªË³Ðò
+ucfirst() å­—ç¬¦ä¸²é¦–å­—æ¯å¤§å†™
+ucwords() æ¯ä¸ªå•è¯é¦–å­—æ¯å¤§å†™
+ã€‹ä¸Žhtm1æ ‡ç­¾ç›¸å…³è”çš„å­—ç¬¦ä¸²å‡½æ•°
+nl2br() æŠŠå…¶ä»–è¯­è¨€æ¢è¡Œç¬¦è½¬æ¢ä¸ºbræ ‡ç­¾
+htmlspecialchars() å°†å­—ç¬¦ä¸²ä¸­HTMLä»£ç è½¬ä¸ºå®žä½“
+htmlspecialchars_decode() è§£å®žä½“ å°†å®žä½“è½¬ä¸ºHTMLä»£ç 
+strip_tags() åŽ»æŽ‰å­—ç¬¦ä¸²ä¸­HTMLä»£ç æ ‡ç­¾
+addslashes() åœ¨â€˜æˆ–"å‰åŠ  / é¿å…â€™â€œçš„ç‰¹æ®Šæ€§
+egï¼šå¢žåŠ sqlè¯­å¥å®‰å…¨æ€§$info=addslashes(htmlspecialchars($_POST['info'])ï¼‰p21
+stripslashes() åŽ»é™¤å­—ç¬¦ä¸²ä¸­çš„ / 
+ã€‹å…¶ä»–å­—ç¬¦ä¸²æ ¼å¼åŒ–å‡½æ•°
+strrev() å°†å­—ç¬¦ä¸²ç¿»è½¬é¡ºåº
 strlen() 
-number_format() Êý¾Ý¸ñÊ½»¯ Ã¿¼¸¸öÓÃÌØ¶¨·ûºÅ¸ô¿ª
-md5() ¶ÔÊý¾Ý¼ÓÃÜÎª32Î»ÃÜÂë
-str_shuffle() ´òÂÒ×Ö·û´® 
-¡·×Ö·û´®µÄ½ØÈ¡ substr()
-substr(str_shuffle($arr),0,4)´Ó$arrÖÐ´Ó0¿ªÊ¼½ØÈ¡4¸ö
-¡·×Ö·û´®µÄ·Ö¸îÓëÆ´½Ó
+number_format() æ•°æ®æ ¼å¼åŒ– æ¯å‡ ä¸ªç”¨ç‰¹å®šç¬¦å·éš”å¼€
+md5() å¯¹æ•°æ®åŠ å¯†ä¸º32ä½å¯†ç 
+str_shuffle() æ‰“ä¹±å­—ç¬¦ä¸² 
+ã€‹å­—ç¬¦ä¸²çš„æˆªå– substr()
+substr(str_shuffle($arr),0,4)ä»Ž$arrä¸­ä»Ž0å¼€å§‹æˆªå–4ä¸ª
+ã€‹å­—ç¬¦ä¸²çš„åˆ†å‰²ä¸Žæ‹¼æŽ¥
 explode()
 implode()
 join()
-¡·×Ö·û´®µÄ²éÕÒ
-strpos() ²éÕÒÖ¸¶¨×Ö·û´®µÚÒ»´Î³öÏÖÎ»ÖÃ
-strrpos($str, 'w ') ²éÕÒÖ¸¶¨×Ö·û´®w×îºóÒ»´Î³öÏÖÎ»ÖÃ
-¡·×Ö·û´®µÄÌæ»»
-str_replace(Ô­×Ö·û´®£¬Ìæ»»×Ö·û´®£¬$arr)
-¡·Ö§³Ö¶à×Ö½ÚÎÄ×Ö
-mb_substr($str,0,4 ,"utf-8");´Ó0¿ªÊ¼Ö»ÏÔÊ¾4¸ö
-$str='ÎÒÊÇ´ó½ð£¬ÎÒÊÇºÃÈË!';
+ã€‹å­—ç¬¦ä¸²çš„æŸ¥æ‰¾
+strpos() æŸ¥æ‰¾æŒ‡å®šå­—ç¬¦ä¸²ç¬¬ä¸€æ¬¡å‡ºçŽ°ä½ç½®
+strrpos($str, 'w ') æŸ¥æ‰¾æŒ‡å®šå­—ç¬¦ä¸²wæœ€åŽä¸€æ¬¡å‡ºçŽ°ä½ç½®
+ã€‹å­—ç¬¦ä¸²çš„æ›¿æ¢
+str_replace(åŽŸå­—ç¬¦ä¸²ï¼Œæ›¿æ¢å­—ç¬¦ä¸²ï¼Œ$arr)
+ã€‹æ”¯æŒå¤šå­—èŠ‚æ–‡å­—
+mb_substr($str,0,4 ,"utf-8");ä»Ž0å¼€å§‹åªæ˜¾ç¤º4ä¸ª
+$str='æˆ‘æ˜¯å¤§é‡‘ï¼Œæˆ‘æ˜¯å¥½äºº!';
 echo "<a href='javacript : ' title='{$str} ' >".mb_substr($str,0,4)."...</a>";
-=====¡·ÎÒÊÇ´ó½ð...
+=====ã€‹æˆ‘æ˜¯å¤§é‡‘...
 mb_strpos();
 mb_strrpos();
 mb_strstr();
 mb_strtoupper();
 mb_strtolower();
-¡·Â·¾¶´¦Àíº¯Êý
-dirname(); ½ØÈ¡Â·¾¶ÖÐµÄÄ¿Â¼²¿·Ö
-basename(); ½ØÈ¡Â·¾¶ÖÐµÄÎÄ¼þ²¿·Ö
-pathinfo(); ½«Â·¾¶½âÎö³É¸÷²¿·Ö
+ã€‹è·¯å¾„å¤„ç†å‡½æ•°
+dirname(); æˆªå–è·¯å¾„ä¸­çš„ç›®å½•éƒ¨åˆ†
+basename(); æˆªå–è·¯å¾„ä¸­çš„æ–‡ä»¶éƒ¨åˆ†
+pathinfo(); å°†è·¯å¾„è§£æžæˆå„éƒ¨åˆ†
 parse_url(); 
-parse_str()£»
+parse_str()ï¼›
 ---------------------------------------------------------------------------------------------------------------------------------
 12:43 2022/8/31
 ------------------------------------------------------------------------------------------------------------------------------------
-¡·ÕýÔòµÄÊ¹ÓÃ³¡¾°:
-¡·ÕýÔòÆ¥Åä
-1.¼ì²éÊÖ»ú¸ñÊ½    /^\d{11}$/
-2.¼ì²éÓÊÏä¸ñÊ½    /^\w+@\w+\.\w+$/
-3.¼ì²éÊÖ»úÊÇ·ñÊÇÒÔ139¿ªÍ·    /^139\d{8}$/
-4.¸´ÔÓµÄ×Ö·û´®Ìæ»»»·¾³    /(\d+)\-(\d+)\+( \d+)/
-¡·ÕýÔò±í´ïÊ½
-1¡¢Ô­×Ó
->µã£º¿É´ú±íÈÎÒ»×Ö·û´¦Àí³ýÁË»»ÐÐ
-×¢£ºi Ä£Ê½ÐÞÕý·û¿ÉºöÂÔ´óÐ¡Ð´   UÌ°À·Ä£Ê½£¨×îÐ¡»¯Æ¥Åä£©
-eg£º$str="php and pap and pbp and linux is lamp and linux and PHP";
+ã€‹æ­£åˆ™çš„ä½¿ç”¨åœºæ™¯:
+ã€‹æ­£åˆ™åŒ¹é…
+1.æ£€æŸ¥æ‰‹æœºæ ¼å¼    /^\d{11}$/
+2.æ£€æŸ¥é‚®ç®±æ ¼å¼    /^\w+@\w+\.\w+$/
+3.æ£€æŸ¥æ‰‹æœºæ˜¯å¦æ˜¯ä»¥139å¼€å¤´    /^139\d{8}$/
+4.å¤æ‚çš„å­—ç¬¦ä¸²æ›¿æ¢çŽ¯å¢ƒ    /(\d+)\-(\d+)\+( \d+)/
+ã€‹æ­£åˆ™è¡¨è¾¾å¼
+1ã€åŽŸå­
+>ç‚¹ï¼šå¯ä»£è¡¨ä»»ä¸€å­—ç¬¦å¤„ç†é™¤äº†æ¢è¡Œ
+æ³¨ï¼ši æ¨¡å¼ä¿®æ­£ç¬¦å¯å¿½ç•¥å¤§å°å†™   Uè´ªå©ªæ¨¡å¼ï¼ˆæœ€å°åŒ–åŒ¹é…ï¼‰
+egï¼š$str="php and pap and pbp and linux is lamp and linux and PHP";
 $ptn='/p.p/i';
 preg_match_all($ptn,$str,$mt);
 echo "<pre>"; 
 print r($mt); 
-echo "</pre>"; ==============¡·Êä³ö°üÀ¨PHP
-a-z£¬A-Z,0-9,:ÆäÖÐµÄÈÎÒâÒ»¸ö
-(abc),½«abc×÷ÎªÒ»¸öÕûÌå×öÆ¥Åä  £¨adb£©|(djh) »ò
-[0-9]0-9ÆäÖÐµÄÈÎÒâÒ»¸ö  [^0-9],³ýÁË0-9ÍâµÄÈÎÒâÒ»¸ö
- \w Æ¥ÅäÈÎÒâÒ»¸ö×Ö·û£¨×ÖÄ¸¡¢Êý×Ö¡¢ÏÂ»®Ïß£©\W Æ¥ÅäÈÎÒâÒ»¸ö×Ö·û³ýÁË×ÖÄ¸¡¢Êý×Ö¡¢ÏÂ»®Ïß
-\s ÌØÖ¸¿Õ¸ñ \S Æ¥Åä·Ç¿Õ¸ñ  \w Æ¥ÅäÈÎÒâÒ»¸ö×Ö·û  \d Æ¥ÅäÈÎÒ»Êý×Ö \D Æ¥ÅäÈÎÒâ¸ö·ÇÊý×Ö
-2¡¢Ôª×Ó·û
-*   +    £¿  |   \b´Ê±ß½ç£¨¿Õ¸ñ¡¢¶ººÅ....£©  \B·Ç´Ê±ß½ç   [^](È¡·´)  {m}m¸ö, {m,n}mµ½n¸ö, {m,}m¸öÒÔÉÏ,
-()¡¤ \d*Ò»¸ö»ò¶à¸ö»ò0¸öÊý×Ö  \d+Ò»¸ö»ò¶à¸öÊý×Ö  \d?Ò»¸ö»ò0¸öÊý×Ö¡¤  *ÈÎÒâÒ»¸ö×Ö·û(0¡¢1¡¢¶à¸ö)
-^ÒÔÊ²Ã´¿ªÊ¼  $ÒÔÊ²Ã´½áÎ²
- ¡·ÕýÔòº¯Êý
-1¡¢preg_grep() ÔÚÊý×éÖÐËÑË÷°üº¬Ö¸¶¨ÖµµÄÔªËØ
-2¡¢preg_match(ÐèÒªÆ¥ÅäµÄÕýÔò£¬Ô­×Ö·û´®£¬Æ¥Åäµ½µÄÄÚÈÝÐèÒª´æÈëµÄ×Ö·û´®) µ±Æ¥Åäµ½µÚÒ»¸ö×Ö·û´®Ê±¼´Í£Ö¹
-3¡¢preg_match_all(ÐèÒªÆ¥ÅäµÄÕýÔò£¬Ô­×Ö·û´®£¬Æ¥Åäµ½µÄÄÚÈÝÐèÒª´æÈëµÄ×Ö·û´®) Æ¥ÅäËùÓÐ×Ö·û´®
-4¡¢preg_replace();
-5¡¢preg_split();ÕýÔò·Ö¸î
-eg£º$str="2014-10=20+30/50";
+echo "</pre>"; ==============ã€‹è¾“å‡ºåŒ…æ‹¬PHP
+a-zï¼ŒA-Z,0-9,:å…¶ä¸­çš„ä»»æ„ä¸€ä¸ª
+(abc),å°†abcä½œä¸ºä¸€ä¸ªæ•´ä½“åšåŒ¹é…  ï¼ˆadbï¼‰|(djh) æˆ–
+[0-9]0-9å…¶ä¸­çš„ä»»æ„ä¸€ä¸ª  [^0-9],é™¤äº†0-9å¤–çš„ä»»æ„ä¸€ä¸ª
+ \w åŒ¹é…ä»»æ„ä¸€ä¸ªå­—ç¬¦ï¼ˆå­—æ¯ã€æ•°å­—ã€ä¸‹åˆ’çº¿ï¼‰\W åŒ¹é…ä»»æ„ä¸€ä¸ªå­—ç¬¦é™¤äº†å­—æ¯ã€æ•°å­—ã€ä¸‹åˆ’çº¿
+\s ç‰¹æŒ‡ç©ºæ ¼ \S åŒ¹é…éžç©ºæ ¼  \w åŒ¹é…ä»»æ„ä¸€ä¸ªå­—ç¬¦  \d åŒ¹é…ä»»ä¸€æ•°å­— \D åŒ¹é…ä»»æ„ä¸ªéžæ•°å­—
+2ã€å…ƒå­ç¬¦
+*   +    ï¼Ÿ  |   \bè¯è¾¹ç•Œï¼ˆç©ºæ ¼ã€é€—å·....ï¼‰  \Béžè¯è¾¹ç•Œ   [^](å–å)  {m}mä¸ª, {m,n}måˆ°nä¸ª, {m,}mä¸ªä»¥ä¸Š,
+()Â· \d*ä¸€ä¸ªæˆ–å¤šä¸ªæˆ–0ä¸ªæ•°å­—  \d+ä¸€ä¸ªæˆ–å¤šä¸ªæ•°å­—  \d?ä¸€ä¸ªæˆ–0ä¸ªæ•°å­—Â·  *ä»»æ„ä¸€ä¸ªå­—ç¬¦(0ã€1ã€å¤šä¸ª)
+^ä»¥ä»€ä¹ˆå¼€å§‹  $ä»¥ä»€ä¹ˆç»“å°¾
+ ã€‹æ­£åˆ™å‡½æ•°
+1ã€preg_grep() åœ¨æ•°ç»„ä¸­æœç´¢åŒ…å«æŒ‡å®šå€¼çš„å…ƒç´ 
+2ã€preg_match(éœ€è¦åŒ¹é…çš„æ­£åˆ™ï¼ŒåŽŸå­—ç¬¦ä¸²ï¼ŒåŒ¹é…åˆ°çš„å†…å®¹éœ€è¦å­˜å…¥çš„å­—ç¬¦ä¸²) å½“åŒ¹é…åˆ°ç¬¬ä¸€ä¸ªå­—ç¬¦ä¸²æ—¶å³åœæ­¢
+3ã€preg_match_all(éœ€è¦åŒ¹é…çš„æ­£åˆ™ï¼ŒåŽŸå­—ç¬¦ä¸²ï¼ŒåŒ¹é…åˆ°çš„å†…å®¹éœ€è¦å­˜å…¥çš„å­—ç¬¦ä¸²) åŒ¹é…æ‰€æœ‰å­—ç¬¦ä¸²
+4ã€preg_replace();
+5ã€preg_split();æ­£åˆ™åˆ†å‰²
+egï¼š$str="2014-10=20+30/50";
 $arr=preg_split('/-l=|\+///' ,$str);
-¡·ÏòºóÒýÓÃ:(abc)$1\\1
-¡·Ä£Ê½ÐÞÕý·û:
-I »ò
-i #ºöÂÔ´óÐ¡Ð´
-U#Ì°À·Ä£Ê½(×îÐ¡»¯Æ¥Åä)m#°Ñ\nÊÓÎª¶àÐÐ
-¡·ÊýÑ§º¯Êý
-max(1,2,10); ×î´óÖµ
-//min() ×îÐ¡Öµ
+ã€‹å‘åŽå¼•ç”¨:(abc)$1\\1
+ã€‹æ¨¡å¼ä¿®æ­£ç¬¦:
+I æˆ–
+i #å¿½ç•¥å¤§å°å†™
+U#è´ªå©ªæ¨¡å¼(æœ€å°åŒ–åŒ¹é…)m#æŠŠ\nè§†ä¸ºå¤šè¡Œ
+ã€‹æ•°å­¦å‡½æ•°
+max(1,2,10); æœ€å¤§å€¼
+//min() æœ€å°å€¼
 max(array(2,3,210));
 //min()
-round() ËÄÉáÎåÈë
-ceil() ÏòÉÏÈ¡Õû
-floor() ÏòÏÂÈ¡Õû
-mt_rand(a£¬b) Çóa-bÄÚËæ»úÊý Ä¬ÈÏ20ÒÚ
-¡·ÈÕÆÚº¯Êý
-time()Ê±¼ä´Á  
-strtotime();½«×Ö·û´®×ªÎªÊ±¼ä´Á
+round() å››èˆäº”å…¥
+ceil() å‘ä¸Šå–æ•´
+floor() å‘ä¸‹å–æ•´
+mt_rand(aï¼Œb) æ±‚a-bå†…éšæœºæ•° é»˜è®¤20äº¿
+ã€‹æ—¥æœŸå‡½æ•°
+time()æ—¶é—´æˆ³  
+strtotime();å°†å­—ç¬¦ä¸²è½¬ä¸ºæ—¶é—´æˆ³
 date(); echo date( 'Y-m-d H:i:s',0);
-¡·date¸ñÊ½»¯²ÎÊý:
-Y:2013Äê             m:61-12ÔÂ
-n:1-12ÔÂ              d:01-31Ìì
-j:1-31Ìì               H:24Ê±
-h: 12Ê±               i:20-59·Ö
-s:00-59Ãë            w:ÈÕ-ÁùÖÜ
-microtime£¨£©Î¢Ãë microtime£¨true£©±£Áôµ½Ò»Î»Î¢Ãë   
-A:AM»òPM           a:am»òpm
-L;ÊÇ·ñÈòÄê           t:Ä³ÔÂÌìÊý
+ã€‹dateæ ¼å¼åŒ–å‚æ•°:
+Y:2013å¹´             m:61-12æœˆ
+n:1-12æœˆ              d:01-31å¤©
+j:1-31å¤©               H:24æ—¶
+h: 12æ—¶               i:20-59åˆ†
+s:00-59ç§’            w:æ—¥-å…­å‘¨
+microtimeï¼ˆï¼‰å¾®ç§’ microtimeï¼ˆtrueï¼‰ä¿ç•™åˆ°ä¸€ä½å¾®ç§’   
+A:AMæˆ–PM           a:amæˆ–pm
+L;æ˜¯å¦é—°å¹´           t:æŸæœˆå¤©æ•°
 
------------------------------------------------------mysqlÊý¾Ý¿â------------------------------------------------------------
+-----------------------------------------------------mysqlæ•°æ®åº“------------------------------------------------------------
 12:13 2022/9/1
-¡·Êý¾Ý¿â·þÎñÆ÷
-1¡¢Êý¾Ý¿â
-2¡¢Êý¾Ý±í
-      ±í½á¹¹£¨×Ö¶Î£©
-      ±íÊý¾Ý£¨¼ÇÂ¼£©
-      ±íË÷Òý£¨¼Ó¿ì¼ìË÷£©
-¡·±íÒýÇæ myisam   innodb
-¡·Mysql»ù±¾ÃüÁî:
-1.net stop mysql ¹Ø±Õmysql
-2.net start mysql ¿ªÆômysq1
-3.mysql -uroot -p123  µÇÂ¼mysq1
-4.show databases; ²é¿´Êý¾Ý¿â
-5.use test ÇÐ»»µ½testÊý¾Ý¿â
-6.show tables; ²é¿´ËùÓÐ±í
-7.select * from t1; ²é¿´t1±íÖÐÊý¾Ý
-8.desc t1; ²é¿´t1±íÁÐ½á¹¹
-9.exit ÍË³ömysq1¿Í»§¶Ë
-¡·Êý¾Ý¿â²Ù×÷:
-1.´´½¨Êý¾Ý¿â
+ã€‹æ•°æ®åº“æœåŠ¡å™¨
+1ã€æ•°æ®åº“
+2ã€æ•°æ®è¡¨
+      è¡¨ç»“æž„ï¼ˆå­—æ®µï¼‰
+      è¡¨æ•°æ®ï¼ˆè®°å½•ï¼‰
+      è¡¨ç´¢å¼•ï¼ˆåŠ å¿«æ£€ç´¢ï¼‰
+ã€‹è¡¨å¼•æ“Ž myisam   innodb
+ã€‹MysqlåŸºæœ¬å‘½ä»¤:
+1.net stop mysql å…³é—­mysql
+2.net start mysql å¼€å¯mysq1
+3.mysql -uroot -p123  ç™»å½•mysq1
+4.show databases; æŸ¥çœ‹æ•°æ®åº“
+5.use test åˆ‡æ¢åˆ°testæ•°æ®åº“
+6.show tables; æŸ¥çœ‹æ‰€æœ‰è¡¨
+7.select * from t1; æŸ¥çœ‹t1è¡¨ä¸­æ•°æ®
+8.desc t1; æŸ¥çœ‹t1è¡¨åˆ—ç»“æž„
+9.exit é€€å‡ºmysq1å®¢æˆ·ç«¯
+ã€‹æ•°æ®åº“æ“ä½œ:
+1.åˆ›å»ºæ•°æ®åº“
 create database jiuxian;
-2.É¾³ýÊý¾Ý¿â
+2.åˆ é™¤æ•°æ®åº“
 drop database jiuxian;
-¡·±í²Ù×÷:
-1.´´½¨±í
+ã€‹è¡¨æ“ä½œ:
+1.åˆ›å»ºè¡¨
 create table user(id,int,
                  name,char);
-2.É¾³ý±í
+2.åˆ é™¤è¡¨
 drop table user;
-3.ÐÞ¸Ä±í
-¡·Êý¾Ý²Ù×÷
-1.²åÈëÊý¾Ý
+3.ä¿®æ”¹è¡¨
+ã€‹æ•°æ®æ“ä½œ
+1.æ’å…¥æ•°æ®
 insert into user(id,username,password) values(1,'user1',20)
-2.É¾³ýÊý¾Ý
+2.åˆ é™¤æ•°æ®
 delete from user where id=1;
-3.²é¿´Êý¾Ý
+3.æŸ¥çœ‹æ•°æ®
 select * from user;
-4.ÐÞ¸ÄÊý¾Ý
+4.ä¿®æ”¹æ•°æ®
 update user set age=30 where id=2;
-¡·PHPµÄ´íÎó´¦Àí:
-1.´íÎó±¨¸æ¼¶±ð
-2.µ÷Õû´íÎó±¨¸æ¼¶±ð
-ÉèÖÃÊÇ·ñ±¨´í:
+ã€‹PHPçš„é”™è¯¯å¤„ç†:
+1.é”™è¯¯æŠ¥å‘Šçº§åˆ«
+2.è°ƒæ•´é”™è¯¯æŠ¥å‘Šçº§åˆ«
+è®¾ç½®æ˜¯å¦æŠ¥é”™:
 display_errors = On
-±¨´í¼¶±ð:
-E ALL #ËùÓÐ±¨´í 
-E NOTICE #ÌáÊ¾±¨´í 
-E DEPRECATED #Î´À´ÆúÓÃ±¨´í 
-E WARNING #¾¯¸æ±¨´í 
-E ERROR #ÖÂÃü±¨´í 
-E PARSE #Óï·¨±¨´í 
-¿ØÖÆ±¨´í¼¶±ð:
+æŠ¥é”™çº§åˆ«:
+E ALL #æ‰€æœ‰æŠ¥é”™ 
+E NOTICE #æç¤ºæŠ¥é”™ 
+E DEPRECATED #æœªæ¥å¼ƒç”¨æŠ¥é”™ 
+E WARNING #è­¦å‘ŠæŠ¥é”™ 
+E ERROR #è‡´å‘½æŠ¥é”™ 
+E PARSE #è¯­æ³•æŠ¥é”™ 
+æŽ§åˆ¶æŠ¥é”™çº§åˆ«:
 E ALL &~E NOTICE &~E STRICT &~EDEPRECATED
 
-¡·ÊýÖµÀàÐÍ:
-tinyint(4)ÓÐ·ûºÅ#-127<=ÊýÖµ<=127
-tinyint(3)ÎÞ·ûºÅ#o<=ÊýÖµ<=255
-int(11)ÓÐ·ûºÅ#-2147483648<=ÊýÖµ<=2147483648
-int(10)ÎÞ·ûºÅ#0<=ÊýÖµ<=4294967296
-bigint(20£©ÓÐ·ûºÅ#9223372036854775808<=ÊýÖµ<=9223372036854775807
-bigint(19)ÎÞ·ûºÅ#o<=ÊýÖµ<=18446744073709551615
-×Ö·û´®ÀàÐÍ:
-char( 255)#³¤¶È<=255 ¶¨³¤
-varchar(65535)#³¤¶È<=255 ²»¶¨³¤
-text#255<³¤¶È<=65535
-mediumtext #65535<³¤¶È<=16777216longtext #16777216<³¤¶È<=4294967296
+ã€‹æ•°å€¼ç±»åž‹:
+tinyint(4)æœ‰ç¬¦å·#-127<=æ•°å€¼<=127
+tinyint(3)æ— ç¬¦å·#o<=æ•°å€¼<=255
+int(11)æœ‰ç¬¦å·#-2147483648<=æ•°å€¼<=2147483648
+int(10)æ— ç¬¦å·#0<=æ•°å€¼<=4294967296
+bigint(20ï¼‰æœ‰ç¬¦å·#9223372036854775808<=æ•°å€¼<=9223372036854775807
+bigint(19)æ— ç¬¦å·#o<=æ•°å€¼<=18446744073709551615
+å­—ç¬¦ä¸²ç±»åž‹:
+char( 255)#é•¿åº¦<=255 å®šé•¿
+varchar(65535)#é•¿åº¦<=255 ä¸å®šé•¿
+text#255<é•¿åº¦<=65535
+mediumtext #65535<é•¿åº¦<=16777216longtext #16777216<é•¿åº¦<=4294967296
 
-¡·charºÍvarcharÇø±ð:
-1.char×î³¤255£¬varchar×î³¤65535
-2.char¹Ì¶¨³¤¶È¿Õ¼ä£¬varchar¿É±ä³¤¶È¿Õ¼äÐÞ¸ÄÊý¾Ý¿â×Ö·û¼¯:
-\s ¼ì²âmysql·þÎñÆ÷ÐÅÏ¢  \c Í£Ö¹ ÖÐ¶Ï
-Êý¾Ý¿â²»Ö§³ÖÖÐÎÄÊ±£¬¿ÉÐÞ¸Äutf8
+ã€‹charå’ŒvarcharåŒºåˆ«:
+1.charæœ€é•¿255ï¼Œvarcharæœ€é•¿65535
+2.charå›ºå®šé•¿åº¦ç©ºé—´ï¼Œvarcharå¯å˜é•¿åº¦ç©ºé—´ä¿®æ”¹æ•°æ®åº“å­—ç¬¦é›†:
+\s æ£€æµ‹mysqlæœåŠ¡å™¨ä¿¡æ¯  \c åœæ­¢ ä¸­æ–­
+æ•°æ®åº“ä¸æ”¯æŒä¸­æ–‡æ—¶ï¼Œå¯ä¿®æ”¹utf8
 Server characterset: utf8
 Db haracterset: utf8
 Client characterset: utf8
 Conn. characterset: utf8
-±à¼­mysqlÅäÖÃÎÄ¼þ:my.ini
+ç¼–è¾‘mysqlé…ç½®æ–‡ä»¶:my.ini
 [client]
 default-character-set = utf8
 [wampmysqld]
 character-set-server = utf8
 collation-server = utf8_general_ci
 
-¡·Êý¾Ý×Ö¶ÎÊôÐÔ:
-1.unsigned ÎÞ·ûºÅÊý¾Ý
-2.zerofi11(Ä¬ÈÏ»áÉèÖÃÎÞ·ûºÅ)
-3.auto_increment(Ç°ÌáÊÇ±ØÐëÉèÖÃÖ÷¼ü)
+ã€‹æ•°æ®å­—æ®µå±žæ€§:
+1.unsigned æ— ç¬¦å·æ•°æ®
+2.zerofi11(é»˜è®¤ä¼šè®¾ç½®æ— ç¬¦å·)
+3.auto_increment(å‰ææ˜¯å¿…é¡»è®¾ç½®ä¸»é”®)
 4.null
 5.not null
-6.default ÉèÖÃÄ¬ÈÏÖµ
-Ö÷¼ü×ÔÔö£º
+6.default è®¾ç½®é»˜è®¤å€¼
+ä¸»é”®è‡ªå¢žï¼š
 mysql> create table t5(
 -> id int unsigned 'auto_increment,->name varchar( 30),
 ->primary key(id)-> );
 mysql> create table t6(
 -> id int unsigned auto_increment primary key,->name varchar(30)
 ->);
-¡·±íË÷Òý:  Ë÷Òý×÷ÓÃ:Ìá¸ß¼ìË÷ËÙ¶È
-1.Ö÷¼üË÷Òý£¨PRI£© ½¨±íÊ±¾ÍÓÐ
-Ôö£ºprimary key(id);
-É¾£ºalter table t1 modify id int unsigned not null; ÏÈÉ¾×ÔÔö
-       alter table t1 drop primary key; ÔÙÉ¾Ë÷Òý
-2.Î¨Ò»Ë÷Òý£¨UNI£©
-Ôö£ºalter table t1 add unique uni_name (name);
-É¾£ºalter table t1 drop index uni_name;
-3.ÆÕÍ¨Ë÷Òý£¨£©
-Ôö£ºalter table t1 add index idx_name( name);
-É¾£ºalter table t1 drop index idx_name;
-°Ñ±í´òÓ¡½á¹ûÒÔÐÐÀ´´òÓ¡:  desc select *from t1 where id=4\G
-ÅúÁ¿É¾³ý±í:  DROP TABLE`t1`, `t2` , `t3`, `t4`, `t5`, `t6`,`t7`, `t8`,`t9`, 'user`;
-±íÃû·´ÒýºÅ×÷ÓÃ: ¿ÉÒÔÓÐÐ§µÄÆÁ±Î¹Ø¼ü×ÖÎÊÌâ(±íÃûºÍ×Ö¶ÎÃû²»ÔÊÐíÊ¹ÓÃ¹Ø¼ü×Ö)
-ÐÞ¸ÄÊý¾Ý±í×Ö¶Î:
-1.Ôö
-alter table t1 add sex tinyint not null; ÔÚ×îºóÃæÌí¼Ó
-alter table t1 add sex tinyint not null after name; ÔÚnameºóÌí¼Ó
-alter table t1 add sex tinyint not null first; ÔÚ×îÇ°ÃæÌí¼Ó
-2.É¾
+ã€‹è¡¨ç´¢å¼•:  ç´¢å¼•ä½œç”¨:æé«˜æ£€ç´¢é€Ÿåº¦
+1.ä¸»é”®ç´¢å¼•ï¼ˆPRIï¼‰ å»ºè¡¨æ—¶å°±æœ‰
+å¢žï¼šprimary key(id);
+åˆ ï¼šalter table t1 modify id int unsigned not null; å…ˆåˆ è‡ªå¢ž
+       alter table t1 drop primary key; å†åˆ ç´¢å¼•
+2.å”¯ä¸€ç´¢å¼•ï¼ˆUNIï¼‰
+å¢žï¼šalter table t1 add unique uni_name (name);
+åˆ ï¼šalter table t1 drop index uni_name;
+3.æ™®é€šç´¢å¼•ï¼ˆï¼‰
+å¢žï¼šalter table t1 add index idx_name( name);
+åˆ ï¼šalter table t1 drop index idx_name;
+æŠŠè¡¨æ‰“å°ç»“æžœä»¥è¡Œæ¥æ‰“å°:  desc select *from t1 where id=4\G
+æ‰¹é‡åˆ é™¤è¡¨:  DROP TABLE`t1`, `t2` , `t3`, `t4`, `t5`, `t6`,`t7`, `t8`,`t9`, 'user`;
+è¡¨ååå¼•å·ä½œç”¨: å¯ä»¥æœ‰æ•ˆçš„å±è”½å…³é”®å­—é—®é¢˜(è¡¨åå’Œå­—æ®µåä¸å…è®¸ä½¿ç”¨å…³é”®å­—)
+ä¿®æ”¹æ•°æ®è¡¨å­—æ®µ:
+1.å¢ž
+alter table t1 add sex tinyint not null; åœ¨æœ€åŽé¢æ·»åŠ 
+alter table t1 add sex tinyint not null after name; åœ¨nameåŽæ·»åŠ 
+alter table t1 add sex tinyint not null first; åœ¨æœ€å‰é¢æ·»åŠ 
+2.åˆ 
 alert table t1 drop sex;
-3.¸Ä
-alter table t1 change name username varchar(30) not null; ¸ÄÊý¾ÝÃû
-alter table t1 modify username varchar(50) not null;¸ÄÊý¾Ý
+3.æ”¹
+alter table t1 change name username varchar(30) not null; æ”¹æ•°æ®å
+alter table t1 modify username varchar(50) not null;æ”¹æ•°æ®
 =-------------------------------------------------------------------------------
 21:48 2022/9/2
-Êý¾Ý¿â²Ù×÷:
-1.DDL  Êý¾Ý¶¨ÒåÓïÑÔ,create,drop,alter
-2.DML  Êý¾Ý²Ù×÷ÓïÑÔ,insert,update,delete
-3.DQL  Êý¾Ý²éÑ¯ÓïÑÔ,select
-4.DCL  Êý¾Ý¿ØÖÆÓïÑÔ,grant, commit,rollback
-Êý¾Ý±í²Ù×÷:
-1.sqlÌõ¼þ
-1)ÊýÑ§ÔËËã·û
+æ•°æ®åº“æ“ä½œ:
+1.DDL  æ•°æ®å®šä¹‰è¯­è¨€,create,drop,alter
+2.DML  æ•°æ®æ“ä½œè¯­è¨€,insert,update,delete
+3.DQL  æ•°æ®æŸ¥è¯¢è¯­è¨€,select
+4.DCL  æ•°æ®æŽ§åˆ¶è¯­è¨€,grant, commit,rollback
+æ•°æ®è¡¨æ“ä½œ:
+1.sqlæ¡ä»¶
+1)æ•°å­¦è¿ç®—ç¬¦
 +,-*,/ ,%
-2)Âß¼­ÔËËã·û
-&&£¬ll£¬and£¬or,between...and,in 
-3)±È½ÏÔËËã·û=,!=,>=,<=,>,<
-2.Ôö-insert
+2)é€»è¾‘è¿ç®—ç¬¦
+&&ï¼Œllï¼Œandï¼Œor,between...and,in 
+3)æ¯”è¾ƒè¿ç®—ç¬¦=,!=,>=,<=,>,<
+2.å¢ž-insert
 insert into user(username,password) values( 'user1 ' , '123');
-3.É¾-delete
-1)²»¸Ä±ä×ÔÔöË³Ðò
+3.åˆ -delete
+1)ä¸æ”¹å˜è‡ªå¢žé¡ºåº
 delete from user where id=4;
 select * from user where id in(1,2);
-2)ÖØÖÃ×ÔÔöË³Ðò
-truncate user; Çå¿Õ±íÊý¾Ý
-4.¸Ä-update
-update user set password='456' where id=3;#Ö»ÐÞ¸Äid=3
-update user set password='456';#È«²¿ÐÞ¸Ä
-5.²é-select
-select username from user;#²éÑ¯ËùÓÐÐÐµÄusernameÁÐÊý¾Ý
-select * from user;#²éÑ¯ËùÓÐÐÐµÄËùÓÐÁÐÊý¾Ý
-select * from user where id=5;#²é¿´id=5µÄÐÐµÄËùÓÐÁÐÊý¾Ý
+2)é‡ç½®è‡ªå¢žé¡ºåº
+truncate user; æ¸…ç©ºè¡¨æ•°æ®
+4.æ”¹-update
+update user set password='456' where id=3;#åªä¿®æ”¹id=3
+update user set password='456';#å…¨éƒ¨ä¿®æ”¹
+5.æŸ¥-select
+select username from user;#æŸ¥è¯¢æ‰€æœ‰è¡Œçš„usernameåˆ—æ•°æ®
+select * from user;#æŸ¥è¯¢æ‰€æœ‰è¡Œçš„æ‰€æœ‰åˆ—æ•°æ®
+select * from user where id=5;#æŸ¥çœ‹id=5çš„è¡Œçš„æ‰€æœ‰åˆ—æ•°æ®
 
-²éÑ¯Êý¾Ý(DQL)-select:
-1.Ñ¡ÔñÌØ¶¨µÄ×Ö¶Î(¶à¸öÓÃ¶ººÅ¸ô¿ª)
+æŸ¥è¯¢æ•°æ®(DQL)-select:
+1.é€‰æ‹©ç‰¹å®šçš„å­—æ®µ(å¤šä¸ªç”¨é€—å·éš”å¼€)
 select id,name from user,I
-2.¸ø×Ö¶ÎÈ¡±ðÃû-as
-select id,name from user;====¡·
+2.ç»™å­—æ®µå–åˆ«å-as
+select id,name from user;====ã€‹
 select id maoxian, name from user;
 select id as maoxian,name from user;
-3.distinct¹Ø¼ü×ÖµÄÊ¹ÓÃ£¨»ñÈ¡³ýÈ¥ÖØ¸´ÏîµÄÊý¾Ý£©
+3.distinctå…³é”®å­—çš„ä½¿ç”¨ï¼ˆèŽ·å–é™¤åŽ»é‡å¤é¡¹çš„æ•°æ®ï¼‰
 select distinct age from user;
-4.Ê¹ÓÃwhereÌõ¼þ½øÐÐ²éÑ¯
+4.ä½¿ç”¨whereæ¡ä»¶è¿›è¡ŒæŸ¥è¯¢
 select * from user where id>=3 and id<=5;
-5.²éÑ¯¿ÕÖµnull
+5.æŸ¥è¯¢ç©ºå€¼null
 select * from user where age is null;
 select * from user where age is not null;
-6.between andµÄÊ¹ÓÃ·½·¨
+6.between andçš„ä½¿ç”¨æ–¹æ³•
 select * from user where id between 3 and 5;
-7.inµÄÊ¹ÓÃ·½·¨
+7.inçš„ä½¿ç”¨æ–¹æ³•
 select * from user where id=1 or id=2 or id=10;
-select* from user where id in(1,2,10);½¨ÒéÊ¹ÓÃÕâ¸ö
-8.likeµÄÊ¹ÓÃ·½·¨
-%Æ¥ÅäËùÓÐ
-_Æ¥ÅäÒ»¸ö×Ö·û
+select* from user where id in(1,2,10);å»ºè®®ä½¿ç”¨è¿™ä¸ª
+8.likeçš„ä½¿ç”¨æ–¹æ³•
+%åŒ¹é…æ‰€æœ‰
+_åŒ¹é…ä¸€ä¸ªå­—ç¬¦
 select * from user where name like "%mysq1%";
-//%ÔÚÇ°,nameÕâÒ»ÁÐµÄË÷Òý»áÊ§Ð§
-9.Ê¹ÓÃorder by¶Ô²éÑ¯½á¹ûÅÅÐò
-select * from user order by id asc;//Ä¬ÈÏ¾ÍÊÇÉýÐò,Êý×Ö´ÓÐ¡µ½´ó
-select * from user order by id desc;//Ä¬ÈÏ¾ÍÊÇÉýÐò,Êý×Ö´Ó´óµ½Ð¡
-10.regexpÕýÔò¼ìË÷
-select * from user where username regexp 'php '; °üº¬php
-select* from user where username regexp '^php' ; ÒÔphp¿ªÍ·
-select * from user where username regexp 'php$ ';ÒÔphp½áÎ²
-11.Ê¹ÓÃlimitÏÞ¶¨Êä³ö¸öÊý:
+//%åœ¨å‰,nameè¿™ä¸€åˆ—çš„ç´¢å¼•ä¼šå¤±æ•ˆ
+9.ä½¿ç”¨order byå¯¹æŸ¥è¯¢ç»“æžœæŽ’åº
+select * from user order by id asc;//é»˜è®¤å°±æ˜¯å‡åº,æ•°å­—ä»Žå°åˆ°å¤§
+select * from user order by id desc;//é»˜è®¤å°±æ˜¯å‡åº,æ•°å­—ä»Žå¤§åˆ°å°
+10.regexpæ­£åˆ™æ£€ç´¢
+select * from user where username regexp 'php '; åŒ…å«php
+select* from user where username regexp '^php' ; ä»¥phpå¼€å¤´
+select * from user where username regexp 'php$ ';ä»¥phpç»“å°¾
+11.ä½¿ç”¨limité™å®šè¾“å‡ºä¸ªæ•°:
 select * from user limit 3;
 select * from user limit 3,5;
-¡·mysqlµõÓÃº¯Êý:
-Á¬½Óº¯Êýconcat()
-select concat(username, ' -',class_id) from user;#°ÑÓÃ»§ÃûºÍ°àºÅÁ¬½Ó
-Ëæ»úÊýrand()
-select * from user order by rand() limit 3; #Ëæ»úÊä³öÈýÌõÊý¾Ý
-Í³¼Æ¸öÊýcount()
-select count(*) from user; #ËÙ¶È¸ü¸ü¿ì  ÓÅ»¯ºóÓï¾ä
+ã€‹mysqlåŠç”¨å‡½æ•°:
+è¿žæŽ¥å‡½æ•°concat()
+select concat(username, ' -',class_id) from user;#æŠŠç”¨æˆ·åå’Œç­å·è¿žæŽ¥
+éšæœºæ•°rand()
+select * from user order by rand() limit 3; #éšæœºè¾“å‡ºä¸‰æ¡æ•°æ®
+ç»Ÿè®¡ä¸ªæ•°count()
+select count(*) from user; #é€Ÿåº¦æ›´æ›´å¿«  ä¼˜åŒ–åŽè¯­å¥
 select count(id) from user;
-ÇóºÍsum()
-select sum(id) from user; ¶Ô±íÖÐidÇóºÍ
-Æ½¾ùÖµavg()
+æ±‚å’Œsum()
+select sum(id) from user; å¯¹è¡¨ä¸­idæ±‚å’Œ
+å¹³å‡å€¼avg()
 select avg(id) from user;
-×î´óÖµmax()
+æœ€å¤§å€¼max()
 select max(id) from user;
-×îÐ¡Öµmin()
+æœ€å°å€¼min()
 select min(id) from user;
-group by·Ö×é¾ÛºÏµÄÊ¹ÓÃ:
+group byåˆ†ç»„èšåˆçš„ä½¿ç”¨:
 select class id,count(*) from user group by class id;
 select concat(class_id,'-','class') class,count(*) tot from user group by class_id;
 ---------------------------------------------------------------------------------------------------------------------
 15:00 2022/9/3
-¡·¶à±í²éÑ¯:
-±íÓë±í¹ØÏµ:
-1.ÓÐ¹ØÏµ
-2.Ã»¹ØÏµ
-ÓÐ¹ØÏµ:
-1.ºÏ²¢
-2.·ÖÀë
-#Ò»¸ö±íÒ»¸öÖ÷Ìå
-#Á½¸ö±íÊÇÒ»¶ÔÒ»¹ØÏµ£¬Ôò¿ÉÒÔºÏ²¢
-±íÓë±íÓÐÄÄÐ©¹ØÏµ:
-1.Ò»¶ÔÒ»
-2.Ò»¶Ô¶à
-3.¶à¶Ô¶à
+ã€‹å¤šè¡¨æŸ¥è¯¢:
+è¡¨ä¸Žè¡¨å…³ç³»:
+1.æœ‰å…³ç³»
+2.æ²¡å…³ç³»
+æœ‰å…³ç³»:
+1.åˆå¹¶
+2.åˆ†ç¦»
+#ä¸€ä¸ªè¡¨ä¸€ä¸ªä¸»ä½“
+#ä¸¤ä¸ªè¡¨æ˜¯ä¸€å¯¹ä¸€å…³ç³»ï¼Œåˆ™å¯ä»¥åˆå¹¶
+è¡¨ä¸Žè¡¨æœ‰å“ªäº›å…³ç³»:
+1.ä¸€å¯¹ä¸€
+2.ä¸€å¯¹å¤š
+3.å¤šå¯¹å¤š
 
-1.½úÍ¨¶à±í²éÑ¯ 
-class±í:
+1.æ™‹é€šå¤šè¡¨æŸ¥è¯¢ 
+classè¡¨:
 create table class(
 id int unsigned not null auto increment, 
 name varchar(30) not null, 
 primary key(id)
 ); 
-user±í:
+userè¡¨:
 create table user(
 id int unsigned not null auto increment. 
 username varchar(50) not null, 
 password varchar(50) not null, 
 class_id int unsigned not null,
 primary key(id));
-ÐèÇó:Çë´òÓ¡³öÃ¿¸öÑ§Ô±µÄÐÕÃûºÍ°à¼¶?
+éœ€æ±‚:è¯·æ‰“å°å‡ºæ¯ä¸ªå­¦å‘˜çš„å§“åå’Œç­çº§?
 mysql> select user.username,class.name from user,class where user.class_id=class.id;
-2.Ç¶Ì×²éÑ¯
+2.åµŒå¥—æŸ¥è¯¢
 select * from user where id in(select max(id) from user);
-3.Á´½Ó²éÑ¯
-ÐèÇó:°ÑËùÓÐ°àµÄ×ÜÈËÊýÍ³¼Æ³öÀ´£¬Ç°ÌáÊÇÓÐÐ©°àÃ»ÓÐÈË?
+3.é“¾æŽ¥æŸ¥è¯¢
+éœ€æ±‚:æŠŠæ‰€æœ‰ç­çš„æ€»äººæ•°ç»Ÿè®¡å‡ºæ¥ï¼Œå‰ææ˜¯æœ‰äº›ç­æ²¡æœ‰äºº?
 mysql> select class.name , count(user.id) from class left join user on class.id=user.class_id group by class.id;
-ÐèÇó:°ÑËùÓÐ°àµÄ×ÜÈËÊýÍ³¼Æ³öÀ´£¬Ç°ÌáÊÇÓÐÐ©°àÃ»ÓÐÈË?×¢:ÈËÊýÎªeµÄÔò´òÓ¡³ö"ÎÞ"!
-mysql> select class.name,if(count(user.id) ,count(user.id),'ÎÞ') from class leftjoin user on class.id=user.class_id group by class.id;
-if½âÎö£ºÈç¹ûcount(user.id)ÎªÕæÔòÊä³öcount(user.id)·ñÔòÊä³öÎÞ
-ÐèÇó:ÓÃ»§±í£¬ÀïÃæÓÐºÜ¶àÓÃ»§£¬ÓÐÒ»ÁÐÊÇ³É¼¨£¬ÇëÍ³¼ÆÕâÕÅ±íÖÐ¼°¸ñÈËÊýºÍ²»¼°¸ñÈËÊý£¬ÇëÓÃÒ»ÌõsqlÓï¾äÊµÏÖ?
+éœ€æ±‚:æŠŠæ‰€æœ‰ç­çš„æ€»äººæ•°ç»Ÿè®¡å‡ºæ¥ï¼Œå‰ææ˜¯æœ‰äº›ç­æ²¡æœ‰äºº?æ³¨:äººæ•°ä¸ºeçš„åˆ™æ‰“å°å‡º"æ— "!
+mysql> select class.name,if(count(user.id) ,count(user.id),'æ— ') from class leftjoin user on class.id=user.class_id group by class.id;
+ifè§£æžï¼šå¦‚æžœcount(user.id)ä¸ºçœŸåˆ™è¾“å‡ºcount(user.id)å¦åˆ™è¾“å‡ºæ— 
+éœ€æ±‚:ç”¨æˆ·è¡¨ï¼Œé‡Œé¢æœ‰å¾ˆå¤šç”¨æˆ·ï¼Œæœ‰ä¸€åˆ—æ˜¯æˆç»©ï¼Œè¯·ç»Ÿè®¡è¿™å¼ è¡¨ä¸­åŠæ ¼äººæ•°å’Œä¸åŠæ ¼äººæ•°ï¼Œè¯·ç”¨ä¸€æ¡sqlè¯­å¥å®žçŽ°?
 select (select count(*) from user where score>=60) yes,(select count(*) fromuser w here score<60) no;
-select sum(if(score>=60,1,0)£©¼°¸ñ, sum(if(score<60,1,0)£©²»¼°¸ñ from user;
+select sum(if(score>=60,1,0)ï¼‰åŠæ ¼, sum(if(score<60,1,0)ï¼‰ä¸åŠæ ¼ from user;
 20:27 2022/9/4
-×óÁ´½Ó:
-°Ñ×ó±ßµÄ±íÊý¾ÝÈ«Êä³ö!
-select class.name,if(count(user.id),count(user.id),'ÎÞ') from class left join useron class.id=user.class_id group by class.id;
-ÓÒÁ´½Ó:
-°ÑÓÒ±ßµÄ±íÊý¾ÝÈ«²¿Êä³ö!
-select class.name,if(count(user.id),count(user.id),'ÎÞ') from user right join classon class.id=user.class_id group by class.id;
-ÄÚÁ´½Ó:
+å·¦é“¾æŽ¥:
+æŠŠå·¦è¾¹çš„è¡¨æ•°æ®å…¨è¾“å‡º!
+select class.name,if(count(user.id),count(user.id),'æ— ') from class left join useron class.id=user.class_id group by class.id;
+å³é“¾æŽ¥:
+æŠŠå³è¾¹çš„è¡¨æ•°æ®å…¨éƒ¨è¾“å‡º!
+select class.name,if(count(user.id),count(user.id),'æ— ') from user right join classon class.id=user.class_id group by class.id;
+å†…é“¾æŽ¥:
 select class.name, count(user.id) from class inner join user on class.id=user.class_
 id group by class.id;
-#ÍêÈ«µÈÓÚÆÕÍ¨¶à±í²éÑ¯£¬±ØÐëÊÇ·ûºÏÌõ¼þµÄ¶à¸ö±íµÄÊý¾Ý²Å»áÏÔÊ¾!
-having ÓÃÓÚ·Ö×é¾ÛºÏºóÉèÖÃ²éÑ¯Ìõ¼þ£¬´ËÊ±where²»ÄÜÓÃ£¬ÐèÓÃhaving¡£
-°Ñ°àºÅÐ¡ÓÚµÈÓÚ2µÄ°àºÅ´òÓ¡³öÀ´:
+#å®Œå…¨ç­‰äºŽæ™®é€šå¤šè¡¨æŸ¥è¯¢ï¼Œå¿…é¡»æ˜¯ç¬¦åˆæ¡ä»¶çš„å¤šä¸ªè¡¨çš„æ•°æ®æ‰ä¼šæ˜¾ç¤º!
+having ç”¨äºŽåˆ†ç»„èšåˆåŽè®¾ç½®æŸ¥è¯¢æ¡ä»¶ï¼Œæ­¤æ—¶whereä¸èƒ½ç”¨ï¼Œéœ€ç”¨havingã€‚
+æŠŠç­å·å°äºŽç­‰äºŽ2çš„ç­å·æ‰“å°å‡ºæ¥:
 mysql> select class_id from user group by class_id having class_id<=2;
 ------------------------------------------------------------------------------------------
 0:15 2022/9/6
-¡·PDOÊý¾Ý¿â²Ù×÷£¨PHP data object£©phpÊý¾Ý¶ÔÏó
-1.PDO class #PDOÀà
-query();Ö´ÐÐsqlÓï¾ä
-exec();Ö´ÐÐsqlÓï¾ä£¬²éÑ¯Êý¾Ý¿âÊý¾Ý
-prepare();ÉèÖÃÔ¤´¦Àíº¯Êý
-lastInsertId()#»ñÈ¡¸Õ²åÈëµÄÊý¾Ý±àºÅ
-setAttribute(£©#ÉèÖÃÄ¬ÈÏÊôÐÔ
-getAttribute(£©#»ñÈ¡Ä¬ÈÏÊôÐÔ
-ÊÂÎñ»úÖÆ£º
-beginTrarsaction(); #¿ªÆôÈÎÎñ
-commit();#³É¹¦Ìá½»±¾´ÎÈÎÎñ
-rollBack();#Ê§°Ü³·Ïú±¾´ÎÈÎÎñ
+ã€‹PDOæ•°æ®åº“æ“ä½œï¼ˆPHP data objectï¼‰phpæ•°æ®å¯¹è±¡
+1.PDO class #PDOç±»
+query();æ‰§è¡Œsqlè¯­å¥
+exec();æ‰§è¡Œsqlè¯­å¥ï¼ŒæŸ¥è¯¢æ•°æ®åº“æ•°æ®
+prepare();è®¾ç½®é¢„å¤„ç†å‡½æ•°
+lastInsertId()#èŽ·å–åˆšæ’å…¥çš„æ•°æ®ç¼–å·
+setAttribute(ï¼‰#è®¾ç½®é»˜è®¤å±žæ€§
+getAttribute(ï¼‰#èŽ·å–é»˜è®¤å±žæ€§
+äº‹åŠ¡æœºåˆ¶ï¼š
+beginTrarsaction(); #å¼€å¯ä»»åŠ¡
+commit();#æˆåŠŸæäº¤æœ¬æ¬¡ä»»åŠ¡
+rollBack();#å¤±è´¥æ’¤é”€æœ¬æ¬¡ä»»åŠ¡
 
-2.PDOStatement class #PDOÔ¤´¦ÀíÀà
-fetchAll()´Ó½á¹û¼¯ÖÐ»ñÈ¡È«²¿Êý¾Ý
-fetch£¨£©´Ó½á¹û¼¯ÖÐ»ñÈ¡Ò»ÌõÊý¾Ý£¬ÊÊÓÃÓÚÖ»ÓÐÒ»ÌõÊý¾ÝµÄ½á¹û¼¯
-fetchColumn();»ñÈ¡½á¹û¼¯ÖÐÏÂÒ»ÐÐÖ¸¶¨ÁÐµÄÖµ
-execute(); Ö´ÐÐÔ¤´¦Àí¶ÔÏó£¬·µ»ØÖµÎªture/fault
-rowCount();»ñÈ¡Ó°ÏìÐÐÊý
-bindvalue£¨£©¸øÔ¤´¦Àí°óÖµ
-3.PDOException class #PDOÒì³£Àà
+2.PDOStatement class #PDOé¢„å¤„ç†ç±»
+fetchAll()ä»Žç»“æžœé›†ä¸­èŽ·å–å…¨éƒ¨æ•°æ®
+fetchï¼ˆï¼‰ä»Žç»“æžœé›†ä¸­èŽ·å–ä¸€æ¡æ•°æ®ï¼Œé€‚ç”¨äºŽåªæœ‰ä¸€æ¡æ•°æ®çš„ç»“æžœé›†
+fetchColumn();èŽ·å–ç»“æžœé›†ä¸­ä¸‹ä¸€è¡ŒæŒ‡å®šåˆ—çš„å€¼
+execute(); æ‰§è¡Œé¢„å¤„ç†å¯¹è±¡ï¼Œè¿”å›žå€¼ä¸ºture/fault
+rowCount();èŽ·å–å½±å“è¡Œæ•°
+bindvalueï¼ˆï¼‰ç»™é¢„å¤„ç†ç»‘å€¼
+3.PDOException class #PDOå¼‚å¸¸ç±»
 getMessage(); 
 getFile();g
 etLine();
 
-ÊµÀý£ºPDO»ñÈ¡±íÊý¾Ý
+å®žä¾‹ï¼šPDOèŽ·å–è¡¨æ•°æ®
 <?php
-#Á¬½ÓÊý¾Ý¿â
+#è¿žæŽ¥æ•°æ®åº“
 $pdo=new PDO( 'mysql:host=localhost;dbname=sdn' , 'root' , '123');
 $sql="select * from user";
-$smt=$pdo->query($sql);²éÑ¯Êý¾Ý¿âÊý¾Ý
-#·µ»Ø¹ØÁªÊý×é
+$smt=$pdo->query($sql);æŸ¥è¯¢æ•°æ®åº“æ•°æ®
+#è¿”å›žå…³è”æ•°ç»„
 $rows=$smt->fetchAll(PDO::FETCH_ASSOC);
-#·µ»ØË÷ÒýÊý×é
+#è¿”å›žç´¢å¼•æ•°ç»„
 #$rows=$smt->fetchAll(PDO ::FETCH_NUM);
-#·µ»Ø»ìºÏÊý×é
+#è¿”å›žæ··åˆæ•°ç»„
 #$rows=$smt->fetchAll(PDO::FETCH_BOTH);
-#·µ»Ø¶ÔÏó
+#è¿”å›žå¯¹è±¡
 #$rows=$smt->fetchAll(PDO::FETCH_OBJ);
 echo"<pre> ";
 print_r( $rows);
 echo"</ pre>" ;
 ?>
-Êý¾Ý¿âÊý¾Ý±éÀúÕ¹Ê¾£º
-#·µ»Ø¹ØÁªÊý×é
+æ•°æ®åº“æ•°æ®éåŽ†å±•ç¤ºï¼š
+#è¿”å›žå…³è”æ•°ç»„
 $rows=$smt->fetchAl1( PDO ::FETCH_ASSOC);
 foreach($rows as $row){
 echo '<tr>';
@@ -833,83 +833,83 @@ echo "<td>{$row [ 'username ' ]}</td>";
 echo "<td>{$row [ 'password' ]}</td>";
 echo '</tr>';
 }
-pdo²åÈëÊý¾Ý:
+pdoæ’å…¥æ•°æ®:
 $sql="insert into user(username, password) values( 'user9' , '123')";
-#pdoÉ¾³ýÊý¾Ý:
+#pdoåˆ é™¤æ•°æ®:
 #$sql="delete from user where id>=10";
-#ÐÞ¸ÄÊý¾Ý
+#ä¿®æ”¹æ•°æ®
 #$sql="update user set password='456' where id=9";
-echo $pdo->exec($sql);exec()·µ»ØÓ°ÏìÐÐÊý¡£
-//ÉèÖÃ¿Í»§¶Ë×Ö·û¼¯Îªutf-8
+echo $pdo->exec($sql);exec()è¿”å›žå½±å“è¡Œæ•°ã€‚
+//è®¾ç½®å®¢æˆ·ç«¯å­—ç¬¦é›†ä¸ºutf-8
 $pdo->exec( 'set names utf8');
-¡·Ô¤´¦Àíº¯Êý
-$sql="insert into user(username, password) values(ÂÞÓÂ, '123 ')";
+ã€‹é¢„å¤„ç†å‡½æ•°
+$sql="insert into user(username, password) values(ç½—å‹‡, '123 ')";
 $smt=$pdo->prepare($sql);
 if($smt->execute()){
-$tot=$smt- >rowCount(); smt»ñÈ¡Ó°ÏìÐÐÊý
-echo 'Êý¾Ý²Ù×÷³É¹¦£¬³É¹¦É¾³ý'.$tot.'ÐÐ!';
+$tot=$smt- >rowCount(); smtèŽ·å–å½±å“è¡Œæ•°
+echo 'æ•°æ®æ“ä½œæˆåŠŸï¼ŒæˆåŠŸåˆ é™¤'.$tot.'è¡Œ!';
 }else{
-echo 'Êý¾Ý²Ù×÷Ê§°Ü!';
+echo 'æ•°æ®æ“ä½œå¤±è´¥!';
 }
-¡·bindvalue¸øÔ¤´¦Àí°óÖµ£¨ÆäÖÐ1Ö¸µÚÒ»¸ö£¿£¬5Ö¸Òª°ó¶¨µÄÖµ£©
+ã€‹bindvalueç»™é¢„å¤„ç†ç»‘å€¼ï¼ˆå…¶ä¸­1æŒ‡ç¬¬ä¸€ä¸ªï¼Ÿï¼Œ5æŒ‡è¦ç»‘å®šçš„å€¼ï¼‰
 $sql="select* from user where id=?";
 $smt=$pdo->prepare($sql);
 $smt- >bindvalue(1,5);
 -----------------------------------------------------------------------------------
 2022/9/6
-lastInsertId()#»ñÈ¡¸Õ²åÈëµÄÊý¾Ý±àºÅ
+lastInsertId()#èŽ·å–åˆšæ’å…¥çš„æ•°æ®ç¼–å·
 if($smt->execute()){
     $lastid=$pdo->lastInsertId();
-     echo '¸Õ¸Õ²åÈëµÄÊý¾Ý±àºÅÊÇ'.$lastid;
+     echo 'åˆšåˆšæ’å…¥çš„æ•°æ®ç¼–å·æ˜¯'.$lastid;
 }
-ÉèÖÃ/»ñÈ¡Ä¬ÈÏÊôÐÔ£¬µÚ¶þ¸ö²ÎÊý¼´ÎªÄ¬ÈÏÊôÐÔ
+è®¾ç½®/èŽ·å–é»˜è®¤å±žæ€§ï¼Œç¬¬äºŒä¸ªå‚æ•°å³ä¸ºé»˜è®¤å±žæ€§
 $pdo->setAttribute(PDO ::ATTR_DEFAULT_FETCH_MODE,PDO::FETCH_ASSOC);
 $pdo->getAttribute(PDO ::ATTR_DEFAULT_FETCH_MODE);
 
-PDOÀà²¹³ä·½·¨:
-beginTransaction();#¿ªÆôÈÎÎñ
-commit();#³É¹¦Ìá½»±¾´ÎÈÎÎñ
-rollBack();#Ê§°Ü³·Ïú±¾´ÎÈÎÎñ
-PDOExceptionÀà:#PDOÒì³£Àà
-getMessage();#»ñÈ¡´íÎóÐÅÏ¢
-getFile();# »ñÈ¡´íÎó·¢ÉúÎÄ¼þ
-getLine();# »ñÈ¡´íÎó·¢ÉúÐÐÊý
+PDOç±»è¡¥å……æ–¹æ³•:
+beginTransaction();#å¼€å¯ä»»åŠ¡
+commit();#æˆåŠŸæäº¤æœ¬æ¬¡ä»»åŠ¡
+rollBack();#å¤±è´¥æ’¤é”€æœ¬æ¬¡ä»»åŠ¡
+PDOExceptionç±»:#PDOå¼‚å¸¸ç±»
+getMessage();#èŽ·å–é”™è¯¯ä¿¡æ¯
+getFile();# èŽ·å–é”™è¯¯å‘ç”Ÿæ–‡ä»¶
+getLine();# èŽ·å–é”™è¯¯å‘ç”Ÿè¡Œæ•°
 
-ÊÂÎñ»úÖÆ£º
-beginTrarsaction(); #¿ªÆôÈÎÎñ
-commit();#³É¹¦Ìá½»±¾´ÎÈÎÎñ
-rollBack();#Ê§°Ü³·Ïú±¾´ÎÈÎÎñ
-3.PDOException class #PDOÒì³£Àà
+äº‹åŠ¡æœºåˆ¶ï¼š
+beginTrarsaction(); #å¼€å¯ä»»åŠ¡
+commit();#æˆåŠŸæäº¤æœ¬æ¬¡ä»»åŠ¡
+rollBack();#å¤±è´¥æ’¤é”€æœ¬æ¬¡ä»»åŠ¡
+3.PDOException class #PDOå¼‚å¸¸ç±»
 getMessage(); 
 getFile();g
 etLine();
 
-Ò»¸öÊÂÎñ»úÖÆ+Òì³£´¦ÀíÊµÀý£º
+ä¸€ä¸ªäº‹åŠ¡æœºåˆ¶+å¼‚å¸¸å¤„ç†å®žä¾‹ï¼š
 <?php
 $pdo=new PDo( ' mysql:host=localhost;dbname=test ' , ' root' , '123');
 $pdo->exec( 'set names utf8 ' );
-$pdo->setAttribute(PDO ::ATTR_ERRMODE,PDO ::ERRMODE_EXCEPTION);//ÐÞ¸Äpdo´íÎóÅ×³ö¸ñÊ½
-//¿ªÆôÊÂÎñ
+$pdo->setAttribute(PDO ::ATTR_ERRMODE,PDO ::ERRMODE_EXCEPTION);//ä¿®æ”¹pdoé”™è¯¯æŠ›å‡ºæ ¼å¼
+//å¼€å¯äº‹åŠ¡
 $pdo->beginTransaction();
 try{
-       //Ò»´Î²Ù×÷
+       //ä¸€æ¬¡æ“ä½œ
        $sql="delete from user where id=1";
        $smt=$pdo->prepare($sql);
        $smt->execute();
-        //Ò»´Î²Ù×÷
+        //ä¸€æ¬¡æ“ä½œ
        $sql="delete form user where id=2";
        $smt=$pdo->prepare($sql);
        $smt->execute();
-        //Ìá½»
+        //æäº¤
        $pdo->commit();
 }catch(PDOException $e){
-        //³·»Ø
+        //æ’¤å›ž
        $pdo->rollBack();
 }
 ?>
 
-$this->length=$length; #ÊôÐÔ£¨this->£© ¿É¿çº¯Êý·½·¨±»µ÷ÓÃ£¬¿É¶ÔÍâ¿ª·Å
-$page=$_GET['p']?$_GET['p']:1;# ¾Ö²¿±äÁ¿£¬Ö»ÄÜÔÚ±¾º¯ÊýÖÐÊ¹ÓÃ
+$this->length=$length; #å±žæ€§ï¼ˆthis->ï¼‰ å¯è·¨å‡½æ•°æ–¹æ³•è¢«è°ƒç”¨ï¼Œå¯å¯¹å¤–å¼€æ”¾
+$page=$_GET['p']?$_GET['p']:1;# å±€éƒ¨å˜é‡ï¼Œåªèƒ½åœ¨æœ¬å‡½æ•°ä¸­ä½¿ç”¨
 
 
 
