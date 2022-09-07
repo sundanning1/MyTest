@@ -910,17 +910,99 @@ try{
 
 $this->length=$length; #属性（this->） 可跨函数方法被调用，可对外开放
 $page=$_GET['p']?$_GET['p']:1;# 局部变量，只能在本函数中使用
+----------------------------------------------------------------------------------------------------------------------------
+12:08 2022/9/7
+》超全局数组  不需要定义，本身就存在
+1、$_SERVER  查看服务器信息
+[ 'SERVER_NAME']  服务器域名
+[ 'REMOTE_ADDR']  客户端ip
+[ 'SERVER_ADDR']  服务器ip
+[ 'SERVER_PORT']  服务器端口
+[ 'DOCUMENT_ROOT']  网站根目录
+[ ' SCRIPT_FLIENAME']  当前脚本的系统绝对路径
+[ 'REQUEST_URI']  当前脚本的网站绝对路径
+[ 'PHP_SELF']  当前脚本的网站绝对路径
+2、$_GET  可用来接收a连接/表单提交信息
+3、$_POST  可用来接收表单提交信息，表单提交信息时多使用post，因get 信息会在地址栏显示
+4、$_REQUEST  同时可以接受get和post提交的数据 但反映速度慢
+5、$_FLIES
+6、$_COOKIE
+7、$_SESSION
+8、$GLOBALS  1.包含$_GET数据 2.包含$_POST数据 3.包含$_COOKIE数据 4.包含$_FILES数据
 
+》$_COOKIE和$_SESSION的作用：
+1、在不同页面使用同一个数组
+2、实现验证码、用户跟踪
+》不同页面使用一个数据的方法：
+1、数据库
+2、文件
+3、内存 （断电清空）
+4、cookie
+cookie是用来将使用者的资料记录在客户端的技术，这种技术让web服务器将一些只需要存放于客户端或者在客户端进行运算的资料，
+存放于电脑系统之中cookie是http标头的一部分，因此setcookie函数必须在其他信息被输出到浏览器之前调用（5.3版本前会报错），
+设置后第一次刷新执行创建cookie，但不会输出，直到第二次刷新请求才会输出数据
+setcookie('username', 'user1',time()+3600,'/'); 第四个参数cookie有效时间，第五个参数表示cookie作用域
+setcookie('password', '123',time()+3600,'/'); 
+setcookie('user id','20',time()+3600,'/');
+设置cookie：setcookie('username', 'user1',time()+3600,'/'); 
+删除cookie：setcookie('username', 'user1',time()-1,'/'); 
+查看cookie数组：print_r($_COOKIE);
+关闭浏览器为会话结束，一次会话后过期：setcookie('username', 'user1',0,'/');
+每setcookie（）一次就创建一个表
 
+cookie实例：
+<?php
+设置cookie参数.php
+setcookie('username', 'user1',time()+3600,'/'); 
+setcookie('password', '123',time()+3600,'/'); 
+setcookie('user id','20',time()+3600,'/');
+echo”<pre>”;
+print_r($_COOKIE);
+echo”</pre>”;
+?>
+跨页面获取cookie参数.php
+<?php
+echo”<pre>”;
+print_r($_COOKIE);
+echo”</pre>”;
+?>
+5、session
+session函数必须在其他信息被输出到浏览器之前调用（5.3版本前会报错），设置参数自动生成“卡号” ---name：value默认会话结束过期
+开启session：session_start(); php.ini中可设置默认开启，不推荐
+设置session: $_SESSION['username']='user1';
+            $_SESSION['user_id']=20;
 
+删除session：
+<?php
+// 1.开启session 
+session_start();
+// 2.清空session数组
+$_SESSION=array();
+//3.删除客户端的cookie文件
+setcookie('PHPSESSID','',time()-1,'/');
+//4.删除服务器上PHPSESSID所对应的session文件 
+session_destroy();
+?>
 
+查询session：print_r($_SESSION);
 
-
-
-
-
-
-
+跨页面调用session实例：
+设置session参数.php
+<?php
+session_start();
+$_SESSION['username']='user1';
+$_SESSION['user_id']=20;
+echo“<pre>”;
+print_r($_SESSION);
+echo”</pre>”;
+?>
+调用session.php
+<?php
+session_start();
+echo”<pre>”;
+print_r($_SESSION);
+echo”</pre>”;
+?>
 
 
 
