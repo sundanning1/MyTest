@@ -38,4 +38,9 @@ $touch 文件名.py # 创建文件
 无色：版本库
 
 
+出现错误：
+1、error: RPC failed; curl 28 OpenSSL SSL_read: Connection was reset, errno 10054
+fatal: expected flush after ref listing
+解决：git config --global http.sslVerify "false"
+
 
