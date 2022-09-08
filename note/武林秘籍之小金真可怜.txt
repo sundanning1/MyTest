@@ -708,10 +708,76 @@ echo filetype($file).':'.$val.'<br>';
 4.删除完整目录(delDir)
 scandir();
 5.复制完整目录(cpDir)
-6.移动完整目录(mvDir)
+6.移动完整目录(mvDir) 先复制再删除
+7.文件上传
+若无限制post能携带上传最大3M的文件 可在php.ini中修改（post_max_size = 3M）
+文件上传错误码:
+0#正确
+1 #上传大小超过了input[type=file]的文件上传框最大大小
+4#没有上传任何文件
+post限制:
+post_max_size = 3072
+Mupload限制:
+upload_max_filesize = 3072M
+[图片上传并缩放实例]p36
+1.图片文件
+image/gif,image/jpg,image/jpeg,image/png
+2.纯文件和html
+text/plain,text/html
+3.二进制文件
+application/octet-stream
+4.音频格式
+audio/mpeg
+5.视频格式
+video/avi
+video/x-ms-wmv
+-----------------------------------------------------面向对象--------------------------------
+PHP面向对象学习大纲:
+1.概念
+2.继承
+3.封装
+4.实例:分页类
+5.实例:数据库操作类
+6.抽象类
+7.接口
+8.多态
+9.魔术方法
+10.关键字
+OOP定义: object-oriented Programming #面向对象编程
+软件工程三大目标:重用性、灵活性、扩展性
+面向对象的三大特点:封装、继承、多态
+面向对象参与角色:
+1.类
+2.对象（$this 永远代表本对象）对象和属性前不可加$
+类与对象的关系:对象是从类中实例化(生产)出来的!
+类的组成部分:
+1.属性
+2.方法
+Person类定义
+文件名要与类名相同，类名每个单词的首字母必须大写，是最为严格的驼峰式写法
+驼峰式:personActionGoodLike，严格的驼峰式写法:PersonActionGoodLike
+class Person{
+	//属性
+	public $name= 'user1';public $age=20;
+	public $sex= 'nan ' ;
+	//方法
+	function say(){
+		echo " hello world ! ';
+	}
+}
+//类实例化
+$user1=new Person();
+//类调用成员方法
+$user1->say();
+echo $user1->name . '<br>';
+echo $user1->sex.'<br>';
+echo $user1->age.'<br>';
 
-
-
+构造方法:
+1._construct(); #推荐使用
+2.Person(); #如果有一个方法名字与类名相同，则该方法为构造方法
+析构方法：
+1._destruct()#删除数据时从最新存入的数据开始
 
 
 
