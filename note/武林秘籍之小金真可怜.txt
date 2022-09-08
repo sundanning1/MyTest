@@ -22,7 +22,7 @@ export const 是命名导出
 {}表示导入非默认变量 , 也就是说文件中不使用export default导出的变量就需要加{}，
  使用export default导出的就可以不加花括号，如果是外部引用的话，是这样：
 import dea（任意） from 'demo1' //导入的时候可以给这个模块任意取名字，且不需要用花括号
-页面跳转
+》页面跳转
 1.header("location:index.html"); php跳转方式，前面不能有输出
 2.echo"<script>location='index.html'</script>";js跳转方式,什么时候都可以直接跳转
 3.echo "<script>alert('图片保存成功!')</script>"; 弹出一句话
@@ -599,9 +599,9 @@ imagecopy($dst_im,$src_im,$dst_x,$dst_y,$src_x,$src_y,$src_w,$src_h);
 .is_file();判断是否是文件
 file_exists();文件或目录是否存在
 filesize();文件大小或目录大小(0/4k)
-2、文件操作:
+2、文件操作函数:
 文件删除unlink();
-文件复制copy();
+文件复制copy(原路径，目的路径);
 重命名文件名rename();
 打开文件fopen(文件名，打开方式);
 r只读方式打开,将文件指针指向文件头
@@ -621,6 +621,18 @@ file_get_contents();#不需要资源，读取
 fwrite(文件名，写入内容);
 file_put_contents(文件，写入内容);#不需要资源，默认覆盖原内容写入
 file_put_contents(文件，写入内容，FILE_APPEND);#不需要资源，在原内容后追加写入
+复制文件
+<?php
+$sfile='ch.jpg';
+$dfile='imgs/'.$sfile;
+copy($sfile,$dfile);
+?>
+移动文件
+$sfile='ch.jpg';
+$dfile='imgs/'.$sfile;
+copy($sfile,$dfile);
+unlink($sfile);
+?>
 
 有无‘+’实例
 < ?php
@@ -638,12 +650,71 @@ fclose($fr);
 $file='test.txt' ;
 $fr=fopen($file, 'a' );#打开资源，
 fwrite($fr, 'abc<br>abc<br>' );
-fclose($fr);#关闭资源
+fclose($fr);#关闭资源12:18 2022/9/8
 
 $fr=fopen($file,'r');
 echo fread($fr,filesize($file));
 fclose($fr);
 ?>
+
+3、全局数组 $_FLIES
+$_FILES数组内容如下:
+
+<input type="file" name="userfile">
+$_FILES['userfile']['name'] 客户端机器文件的原名称。
+$_FILES['userfile']['type']
+文件的 MIME 类型，需要浏览器提供该信息的支持，例如“image/gif”。
+$_FILES['userfile']['size'] 已上传文件的大小，单位为字节。
+$_FILES['userfile']['tmp_name'] 文件被上传后在服务端储存的临时文件名。
+$_FILES['userfile']['error']
+和该文件上传相关的错误代码。['error'] 是在 PHP 4.2.0 版本中增加的。
+注: 在 PHP 4.1.0 版本以前该数组的名称为 $HTTP_POST_FILES，它并不像 $_FILES 一样是自动全局变量。
+PHP 3 不支持 $HTTP_POST_FILES 数组。
+move_uploaded_file -- 将上传的文件移动到新位置
+bool move_uploaded_file ( string filename, string destination )
+
+本函数检查并确保由 filename 指定的文件是合法的上传文件（即通过 PHP 的 HTTP POST 上传机制所上传的）。
+如果文件合法，则将其移动为由 destination 指定的文件。
+如果 filename 不是合法的上传文件，不会出现任何操作，move_uploaded_file() 将返回 FALSE。
+如果 filename 是合法的上传文件，但出于某些原因无法移动，不会出现任何操作，move_uploaded_file() 将返回 FALSE，此外还会发出一条警告。
+--------------------------------------------------------------------------------------------------------------------------------------------------
+12:18 2022/9/8
+》》目录操作
+1.遍历目录 opendir(); readdir(); closedir(); scandir() #不需要开启/关闭资源 输出为数组;
+<?php
+$dir='imgs';
+$od=opendir($dir);
+while($file=readdir($od)){
+if($file!='.'&& $file!='..'){
+echo $file.'<br>';
+}
+closedir($dir); #关闭目录资源
+?>
+
+scandir() #不需要开启/关闭资源 输出为数组;
+<?php
+$dir='imgs';
+$arr=scandir($dir);
+foreach($arr as $key=>$val){
+if($key>1){
+$file=$dir.'/'.$val;
+echo filetype($file).':'.$val.'<br>';
+}
+}
+?>
+
+2.创建目录 mkdir();
+3.删除空目录 rmdir();
+4.删除完整目录(delDir)
+scandir();
+5.复制完整目录(cpDir)
+6.移动完整目录(mvDir)
+
+
+
+
+
+
 
 
 -----------------------------------------------------mysql数据库------------------------------------------------------------
